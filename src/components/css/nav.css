@@ -1,0 +1,50 @@
+.nav .nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.nav .nav__container h1 {
+  color: #fff;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.nav .nav__container h1 span {
+  color: #d0d3db;
+  text-shadow: 0px 2px 20px #fff;
+}
+
+.nav .nav__container h1:hover {
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+}
+
+.nav .nav__container .nav__icon {
+  font-size: 46px;
+  position: fixed;
+  right: 50px;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+/*# sourceMappingURL=nav.css.map */

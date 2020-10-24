@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  object-fit: contain;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #22262a;
+}

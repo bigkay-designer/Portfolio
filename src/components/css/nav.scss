@@ -1,0 +1,34 @@
+.nav {
+  .nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+
+    h1 {
+      color: #fff;
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-transform: capitalize;
+      cursor: pointer;
+      span {
+        color: rgb(208, 211, 219);
+        text-shadow: 0px 2px 20px #fff;
+      }
+
+      &:hover {
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+      }
+    }
+    .nav__icon {
+      font-size: 46px;
+      position: fixed;
+      right: 50px;
+      color: #d4d4d4;
+      cursor: pointer;
+    }
+  }
+}
