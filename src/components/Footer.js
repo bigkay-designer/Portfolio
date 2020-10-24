@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer__container">
-                <h3> © 2020 Khalid Ibrahim. All Rights Reserved.</h3>
+                <h4> © 2020 Khalid Ibrahim. All Rights Reserved.</h4>
             </div>
         </div>
     )

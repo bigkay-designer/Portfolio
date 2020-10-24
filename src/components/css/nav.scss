@@ -1,4 +1,5 @@
 .nav {
+  //   overflow: hidden;
   .nav__container {
     display: flex;
     justify-content: space-between;
@@ -6,21 +7,19 @@
     padding-top: 30px;
 
     h1 {
-      color: #fff;
+      width: 120px;
+      text-align: center;
+      color: #f4f4f4;
       margin-left: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       text-transform: capitalize;
+      padding: 0 10px;
       cursor: pointer;
       span {
         color: rgb(208, 211, 219);
-        text-shadow: 0px 2px 20px #fff;
       }
 
       &:hover {
-        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+        font-style: italic;
       }
     }
     .nav__icon {
@@ -29,6 +28,11 @@
       right: 50px;
       color: #d4d4d4;
       cursor: pointer;
+      transition: 220ms;
+
+      &:hover {
+        transform: scale(1.05);
+      }
     }
   }
 }

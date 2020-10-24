@@ -22,6 +22,13 @@
   top: 40%;
 }
 
+@media (max-width: 600px) {
+  .showCase .showCase__container {
+    position: absolute;
+    top: 30%;
+  }
+}
+
 .showCase .showCase__container h1 {
   font-size: 64px;
   text-transform: capitalize;
@@ -34,10 +41,18 @@
   font-size: 24px;
   color: #fff;
   text-transform: capitalize;
+  max-width: 630px;
+}
+
+@media (max-width: 600px) {
+  .showCase .showCase__container p {
+    max-width: 330px;
+    margin: auto;
+  }
 }
 
 .showCase .showCase__container button {
-  margin-top: 30px;
+  margin: 50px 0;
   font-size: 20px;
   text-transform: capitalize;
   padding: 7px 17px;
@@ -61,7 +76,7 @@
   overflow: hidden;
 }
 
-.footer h3 {
+.footer h4 {
   text-align: center;
   padding: 5px 0;
   color: #cecece;

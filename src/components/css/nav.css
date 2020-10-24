@@ -12,32 +12,21 @@
 }
 
 .nav .nav__container h1 {
-  color: #fff;
+  width: 120px;
+  text-align: center;
+  color: #f4f4f4;
   margin-left: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-transform: capitalize;
+  padding: 0 10px;
   cursor: pointer;
 }
 
 .nav .nav__container h1 span {
   color: #d0d3db;
-  text-shadow: 0px 2px 20px #fff;
 }
 
 .nav .nav__container h1:hover {
-  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+  font-style: italic;
 }
 
 .nav .nav__container .nav__icon {
@@ -46,5 +35,12 @@
   right: 50px;
   color: #d4d4d4;
   cursor: pointer;
+  -webkit-transition: 220ms;
+  transition: 220ms;
+}
+
+.nav .nav__container .nav__icon:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=nav.css.map */
