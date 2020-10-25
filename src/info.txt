@@ -1,0 +1,27 @@
+<div className="projects__cards">
+<div className="img-hover">
+    <img className="projects__img" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Netflix_-_English.jpg" alt="netflix-clone"/>
+    <div className="project__cards__btn">
+        <button><VisibilityIcon className="btn-icon" />View Project</button>
+    </div>
+</div>
+
+<div className="projects__cards--popup">
+    <span>project</span>
+    <h2>Project name</h2>
+    <div className="projects__cards--popup__tech">
+        <ul>
+            <li>tech used</li>
+            <li>tech used</li>
+            <li>tech used</li>
+            <li>tech used</li>
+            <li>tech used</li>
+        </ul>
+    </div>
+    <span>about</span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel accusantium sapiente laudantium facilis et doloribus dignissimos quibusdam excepturi ratione?</p>
+
+    <button><span>icon</span> Demo</button>
+    <button><span>icon</span> code</button>
+</div>
+</div>

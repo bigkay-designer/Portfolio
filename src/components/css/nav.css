@@ -25,10 +25,6 @@
   color: #d0d3db;
 }
 
-.nav .nav__container h1:hover {
-  font-style: italic;
-}
-
 .nav .nav__container .nav__icon {
   font-size: 46px;
   position: fixed;
