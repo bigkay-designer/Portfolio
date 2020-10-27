@@ -1,16 +1,18 @@
 [
     {
-        "id": 1,
-        "title": "project name",
+        "id": "netflix",
+        "title": "netflix-clone",
         "img":"https://upload.wikimedia.org/wikipedia/en/f/f4/Netflix_-_English.jpg",
-        "usedTech": ["html & css", "Sass", "Javascript", "react", "ux/ui"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat."
+        "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "github": "https://github.com/bigkay-designer/netflix-clone"
     },
     {
-        "id": 2,
-        "title": "project name 2",
+        "id": "Covid",
+        "title": "Covdi-19 tracker",
         "img":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/97664/s960_Coronavirus_govuk.jpg",
-        "usedTech": ["xml & css", "Sass", "Javascript", "react", "ux/ui"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat."
+        "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "github": "https://github.com/bigkay-designer/budget-app"
     }
 ]

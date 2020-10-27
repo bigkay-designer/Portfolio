@@ -5,18 +5,19 @@ import './css/main.css'
 
 function Modal({open,  children}) {
 
-    const style = {
-        backgroundColor: '#fff',
-        position: 'fixed',
-        top:'50%',
-        left: '50%',
-        transform:'translate(-50%, -50%) ',
-        zInedx: '1000'
-    }
+    // const style = {
+    //     backgroundColor: '#fff',
+    //     position: 'fixed',
+    //     top:'50%',
+    //     left: '50%',
+    //     animation: 'fadein 0.5s',
+    //     transform:'translate(-50%, -50%) ',
+    //     zInedx: '1000'
+    // }
     
     if(!open) return null
     return (
-        <div style={style} className="modal">
+        <div className="main__modal">
             {children}
         </div>
     )
