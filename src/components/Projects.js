@@ -63,7 +63,7 @@ function Projects() {
                                             <p> {data.content} </p>
                                         </div>
                                         <div className="popup__btn">
-                                            <button><a href="#" target="_blank"><span><VisibilityIcon /> </span> Demo</a> </button>
+                                            <button><a href={data.live} target="_blank"><span><VisibilityIcon /> </span> Demo</a> </button>
                                             <button><a href={data.github} target="_blank"><span><CodeIcon /></span>code</a></button>
                                         </div>
                                     </div>

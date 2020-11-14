@@ -5,6 +5,7 @@
         "img":"https://upload.wikimedia.org/wikipedia/en/f/f4/Netflix_-_English.jpg",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "live": "https://netflix-clone-8a913.web.app/",
         "github": "https://github.com/bigkay-designer/netflix-clone"
     },
     {
@@ -13,6 +14,7 @@
         "img":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/97664/s960_Coronavirus_govuk.jpg",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "live": "https://covid-19tracker.site/",
         "github": "https://github.com/bigkay-designer/budget-app"
     },
     {
@@ -29,6 +31,7 @@
         "img":"https://www.pbctoday.co.uk/news/wp-content/uploads/2018/12/BIM-adds-value-to-intelligent-buildings-says-report-%C2%A9-Stepanenko-Oksana-.jpg",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "live": "https://callmyneighbour.site/",
         "github": "https://github.com/bigkay-designer/call-my-neighbour"
     },
     {
@@ -37,6 +40,7 @@
         "img":"https://lh3.googleusercontent.com/proxy/9Ze9-338XOcHiTGueltg1rUgGgD1FOgltr_1bIVoSTwpqgQQnDY4wo0rvS-pMZ0epUmEJ-fMtKA00S5mF6phagfl7F-3bBfHqZfBCfj4urF8ZB3MXi0sPVs9u6-LgZAmHxUtTi299Q5PwbSZpSF5JkgyuStqlLpaEQ",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "live" : "https://outdoorfinest.co.uk/",
         "github": "https://github.com/bigkay-designer/sams-project-depo"
     },
     {
@@ -45,6 +49,7 @@
         "img":"https://assets.materialup.com/uploads/d4e5a168-7074-4ff4-8a3f-048e9fa7de48/preview.png",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "live": "https://watchmyexpense.site/",
         "github": "https://github.com/bigkay-designer/expense-app"
     }
 ]
