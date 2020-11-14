@@ -382,6 +382,224 @@
   background-color: rgba(148, 142, 132, 0.6);
 }
 
+.about {
+  background-color: #22262a;
+}
+
+.about .about__container {
+  width: 75%;
+  margin: auto;
+  height: 100vh;
+}
+
+.about .about__container .about__title {
+  padding-top: 30px;
+}
+
+.about .about__container .about__title h1 {
+  color: ivory;
+}
+
+.about .about__container .about__title h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.about .about__container .about__content {
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+.about .about__container .about__content p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: lightgray;
+}
+
+.about .about__container .about__skills__showCase {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  border: 2px solid #000;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 2px #000113;
+          box-shadow: 0px 1px 2px #000113;
+  padding: 15px;
+  background-color: #000813;
+  margin-top: 30px;
+}
+
+.about .about__container .about__skills__showCase .about__design,
+.about .about__container .about__skills__showCase .about__code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #fff;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__logo,
+.about .about__container .about__skills__showCase .about__code .about__design__logo {
+  font-size: 56px;
+  color: #4c5f4c;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__title,
+.about .about__container .about__skills__showCase .about__code .about__design__title {
+  text-align: center;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__title h1,
+.about .about__container .about__skills__showCase .about__code .about__design__title h1 {
+  text-transform: capitalize;
+  color: var(--main-title-design-color);
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__title p,
+.about .about__container .about__skills__showCase .about__code .about__design__title p {
+  color: var(--main-design-color);
+  max-width: 300px;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__content,
+.about .about__container .about__skills__showCase .about__code .about__design__content {
+  text-align: center;
+  margin: 10px;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__content h1,
+.about .about__container .about__skills__showCase .about__code .about__design__content h1 {
+  text-transform: capitalize;
+  color: var(--main-title-design-color);
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__content p,
+.about .about__container .about__skills__showCase .about__code .about__design__content p {
+  color: #fff;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__content .content__div,
+.about .about__container .about__skills__showCase .about__code .about__design__content .content__div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 10px;
+  border: 1px solid #000;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__content .content__div p,
+.about .about__container .about__skills__showCase .about__code .about__design__content .content__div p {
+  padding: 5px 10px;
+  background-color: #3d4247;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__tools,
+.about .about__container .about__skills__showCase .about__code .about__design__tools {
+  text-align: center;
+  margin: 10px;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__tools h1,
+.about .about__container .about__skills__showCase .about__code .about__design__tools h1 {
+  text-transform: capitalize;
+  color: var(--main-title-design-color);
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__tools ul,
+.about .about__container .about__skills__showCase .about__code .about__design__tools ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 10px;
+  color: var(--main-design-color);
+  padding: 0 !important;
+  margin: 10px 0 0 0 !important;
+}
+
+.about .about__container .about__skills__showCase .about__design .about__design__tools ul li,
+.about .about__container .about__skills__showCase .about__code .about__design__tools ul li {
+  border: 1px solid #000;
+  background-color: #3d4247;
+  padding: 5px 10px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.about .about__container .about__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0 0 0;
+}
+
+.about .about__container .about__icons .about__skill__icons {
+  font-size: 40px;
+}
+
+.about .about__container .about__icons .react {
+  color: #70a4e9;
+}
+
+.about .about__container .about__icons .js {
+  color: yellow;
+}
+
+.about .about__container .about__icons .html {
+  color: #be7c02;
+}
+
+.about .about__container .about__icons .css {
+  color: #243ed1;
+}
+
+.about .about__container .about__icons .sass {
+  color: #fd8ea0;
+}
+
+.about .about__container .about__icons .ngx {
+  color: #0e830e;
+}
+
+.about .about__container .about__icons .fb {
+  color: #ffbb00;
+}
+
+.about .about__container .about__icons .nodejs {
+  color: lightgreen;
+}
+
 @media screen and (max-width: 1450px) {
   .projects .projects__container .projects__cards_container {
     display: -ms-grid !important;

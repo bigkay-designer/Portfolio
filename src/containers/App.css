@@ -5,6 +5,9 @@
 }
 
 body {
+  --main-design-color: #a9a9a9;
+  --main-title-design-color: ivory;
+  --main-bg-color: #22262a;
   height: 100%;
 }
 

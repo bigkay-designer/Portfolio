@@ -1,4 +1,6 @@
 .nav {
+  background-color: ivory;
+
   //   overflow: hidden;
   .nav__container {
     margin-top: 30px;
@@ -17,7 +19,7 @@
       }
     }
     .nav__links {
-      margin-top: 50px;
+      margin: 40px 0 80px;
       ul {
         padding: 0 40px !important;
         cursor: pointer;
@@ -41,14 +43,16 @@
       }
     }
     .nav__socials {
-      margin-top: 100px;
-      width: 150px;
-      div {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .nav__socials__icons {
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        h3 {
-          display: none;
+        a {
+          text-decoration: none;
         }
         .icons {
           font-size: 30px;
@@ -74,9 +78,31 @@
       }
     }
     .footer {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      max-width: 290px;
       .footer__container {
-        margin-top: 100px;
+        padding: 40px 0;
+        // margin-top: 100px;
         text-align: center;
+        .nav__contact {
+          margin-top: 30px;
+          padding-bottom: 20px;
+          text-align: center;
+          h2 {
+            font-size: 21px;
+            font-style: italic;
+          }
+          p {
+            color: #696969;
+            margin: 10px 0 0;
+            a {
+              text-decoration: none;
+              color: inherit;
+            }
+          }
+        }
       }
     }
   }

@@ -288,6 +288,162 @@
     }
   }
 }
+
+// about page
+
+.about {
+  background-color: #22262a;
+  .about__container {
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+    // padding: 30px 20px;
+    .about__title {
+      padding-top: 30px;
+      h1 {
+        color: ivory;
+      }
+      h3 {
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+    .about__content {
+      margin-top: 20px;
+      max-width: 700px;
+      p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        color: lightgray;
+      }
+    }
+    .about__skills__showCase {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      border: 2px solid #000;
+      border-radius: 20px;
+      box-shadow: 0px 1px 2px rgb(0, 1, 19);
+      padding: 15px;
+      background-color: rgb(0, 8, 19);
+      margin-top: 30px;
+      .about__design,
+      .about__code {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #fff;
+        padding: 10px 0;
+        border-radius: 20px;
+        .about__design__logo {
+          font-size: 56px;
+          color: rgb(76, 95, 76);
+        }
+        .about__design__title {
+          text-align: center;
+          h1 {
+            text-transform: capitalize;
+            color: var(--main-title-design-color);
+          }
+          p {
+            color: var(--main-design-color);
+            max-width: 300px;
+          }
+        }
+        .about__design__content {
+          text-align: center;
+          margin: 10px;
+          h1 {
+            text-transform: capitalize;
+            color: var(--main-title-design-color);
+          }
+          p {
+            color: #fff;
+            margin-top: 10px;
+            letter-spacing: 1px;
+          }
+          .content__div {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            border: 1px solid #000;
+            p {
+              padding: 5px 10px;
+              background-color: #3d4247;
+              text-transform: capitalize;
+              margin-top: 10px;
+              color: #fff;
+            }
+          }
+        }
+        .about__design__tools {
+          text-align: center;
+          margin: 10px;
+          h1 {
+            text-transform: capitalize;
+            color: var(--main-title-design-color);
+          }
+          ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            color: var(--main-design-color);
+            padding: 0 !important;
+            margin: 10px 0 0 0 !important;
+            li {
+              border: 1px solid #000;
+              background-color: #3d4247;
+              padding: 5px 10px;
+              color: #fff;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+
+    // code section
+
+    .about__icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 0 0 0;
+      .about__skill__icons {
+        font-size: 40px;
+      }
+      .react {
+        color: rgb(112, 164, 233);
+      }
+      .js {
+        color: yellow;
+      }
+      .html {
+        color: rgb(190, 124, 2);
+      }
+      .css {
+        color: rgb(36, 62, 209);
+      }
+      .sass {
+        color: rgb(253, 142, 160);
+      }
+      .ngx {
+        color: rgb(14, 131, 14);
+      }
+      .fb {
+        color: rgb(255, 187, 0);
+      }
+      .nodejs {
+        color: lightgreen;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1450px) {
   .projects {
     .projects__container {

@@ -1,3 +1,7 @@
+.nav {
+  background-color: ivory;
+}
+
 .nav .nav__container {
   margin-top: 30px;
 }
@@ -21,7 +25,7 @@
 }
 
 .nav .nav__container .nav__links {
-  margin-top: 50px;
+  margin: 40px 0 80px;
 }
 
 .nav .nav__container .nav__links ul {
@@ -51,14 +55,25 @@
 }
 
 .nav .nav__container .nav__socials {
-  margin-top: 100px;
-  width: 150px;
-}
-
-.nav .nav__container .nav__socials div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.nav .nav__container .nav__socials .nav__socials__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -67,40 +82,68 @@
           align-items: flex-start;
 }
 
-.nav .nav__container .nav__socials div h3 {
-  display: none;
+.nav .nav__container .nav__socials .nav__socials__icons a {
+  text-decoration: none;
 }
 
-.nav .nav__container .nav__socials div .icons {
+.nav .nav__container .nav__socials .nav__socials__icons .icons {
   font-size: 30px;
   cursor: pointer;
   padding: 6px 3px;
   color: ivory;
 }
 
-.nav .nav__container .nav__socials div .icons:hover {
+.nav .nav__container .nav__socials .nav__socials__icons .icons:hover {
   -webkit-box-shadow: 1px 0px 3px gray;
           box-shadow: 1px 0px 3px gray;
 }
 
-.nav .nav__container .nav__socials div .li {
+.nav .nav__container .nav__socials .nav__socials__icons .li {
   background-color: #3781f1;
 }
 
-.nav .nav__container .nav__socials div .gh {
+.nav .nav__container .nav__socials .nav__socials__icons .gh {
   background-color: #22262a;
 }
 
-.nav .nav__container .nav__socials div .em {
+.nav .nav__container .nav__socials .nav__socials__icons .em {
   background-color: lightgreen;
 }
 
-.nav .nav__container .nav__socials div .desc {
+.nav .nav__container .nav__socials .nav__socials__icons .desc {
   background-color: #5b6166;
 }
 
+.nav .nav__container .footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 290px;
+}
+
 .nav .nav__container .footer .footer__container {
-  margin-top: 100px;
+  padding: 40px 0;
   text-align: center;
+}
+
+.nav .nav__container .footer .footer__container .nav__contact {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.nav .nav__container .footer .footer__container .nav__contact h2 {
+  font-size: 21px;
+  font-style: italic;
+}
+
+.nav .nav__container .footer .footer__container .nav__contact p {
+  color: #696969;
+  margin: 10px 0 0;
+}
+
+.nav .nav__container .footer .footer__container .nav__contact p a {
+  text-decoration: none;
+  color: inherit;
 }
 /*# sourceMappingURL=nav.css.map */
