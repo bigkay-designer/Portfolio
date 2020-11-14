@@ -1,42 +1,106 @@
 .nav .nav__container {
+  margin-top: 30px;
+}
+
+.nav .nav__container .nav__title {
+  text-align: center;
+}
+
+.nav .nav__container .nav__title h1 {
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.nav .nav__container .nav__title h1 span {
+  color: #343b3b;
+}
+
+.nav .nav__container .nav__title h3 {
+  text-transform: capitalize;
+  text-shadow: 0px 1px 2px gray;
+}
+
+.nav .nav__container .nav__links {
+  margin-top: 50px;
+}
+
+.nav .nav__container .nav__links ul {
+  padding: 0 40px !important;
+  cursor: pointer;
+}
+
+.nav .nav__container .nav__links ul li {
+  text-transform: capitalize;
+  background-color: #22262a;
+  padding: 10px 15px;
+  border-radius: 7px;
+  text-align: center;
+  margin: 10px 0;
+  -webkit-box-shadow: 0px 0px 7px gray;
+          box-shadow: 0px 0px 7px gray;
+  list-style: none;
+}
+
+.nav .nav__container .nav__links ul li .nav__links__tag {
+  color: ivory;
+  text-decoration: none;
+}
+
+.nav .nav__container .nav__links ul li:hover {
+  background-color: #5b6166;
+}
+
+.nav .nav__container .nav__socials {
+  margin-top: 100px;
+  width: 150px;
+}
+
+.nav .nav__container .nav__socials div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 30px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-.nav .nav__container h1 {
-  width: 120px;
+.nav .nav__container .nav__socials div h3 {
+  display: none;
+}
+
+.nav .nav__container .nav__socials div .icons {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 6px 3px;
+  color: ivory;
+}
+
+.nav .nav__container .nav__socials div .icons:hover {
+  -webkit-box-shadow: 1px 0px 3px gray;
+          box-shadow: 1px 0px 3px gray;
+}
+
+.nav .nav__container .nav__socials div .li {
+  background-color: #3781f1;
+}
+
+.nav .nav__container .nav__socials div .gh {
+  background-color: #22262a;
+}
+
+.nav .nav__container .nav__socials div .em {
+  background-color: lightgreen;
+}
+
+.nav .nav__container .nav__socials div .desc {
+  background-color: #5b6166;
+}
+
+.nav .nav__container .footer .footer__container {
+  margin-top: 100px;
   text-align: center;
-  color: #f4f4f4;
-  margin-left: 30px;
-  text-transform: capitalize;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
-.nav .nav__container h1 span {
-  color: #d0d3db;
-}
-
-.nav .nav__container .nav__icon {
-  font-size: 46px;
-  position: fixed;
-  right: 50px;
-  color: #d4d4d4;
-  cursor: pointer;
-  -webkit-transition: 220ms;
-  transition: 220ms;
-}
-
-.nav .nav__container .nav__icon:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 /*# sourceMappingURL=nav.css.map */

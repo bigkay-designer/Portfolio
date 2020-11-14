@@ -9,15 +9,13 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Nav />
+      <div className="app">
         <Switch>
           <Route path="/projects" component={ Projects} />
           <Route path="/" exact component={ Showcase} />
         </Switch>
         {/* side socialmedia bar */}
-
-      <Footer />
+        <Nav />
       </div>
     </Router>
   );

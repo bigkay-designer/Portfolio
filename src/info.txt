@@ -25,3 +25,191 @@
     <button><span>icon</span> code</button>
 </div>
 </div>
+
+
+
+********************************************************
+import React, {useState, useEffect} from 'react'
+import VisibilityIcon from '@material-ui/icons/Visibility';
+import CloseIcon from '@material-ui/icons/Close';import CodeIcon from '@material-ui/icons/Code';
+import modalData from './modalData.json'
+import './css/main.css'
+
+function Modal({open, close, content}) {
+   
+    const style = {
+        backgroundColor: '#fff',
+        position: 'fixed',
+        top:'50%',
+        left: '50%',
+        transform:'translate(-50%, -50%) ',
+        zInedx: '1000'
+    }
+    
+    if(!open) return (
+        <div className="projects__cards_container">
+        {/* {content.map(data=>(
+            console.log(data)
+        ))} */}
+            <div className="projects__cards">
+                <div className="img-hover">
+                    <img className="projects__img" src={content.img} alt="netflix-clone"/>
+                    <div className="project__cards__btn">
+                        <button onClick={open} ><VisibilityIcon className="btn-icon" />View Project</button>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    )
+    return (
+        <div style={style} className="modal">
+            {/* <button style={btn} onClick={close}><CancelPresentationIcon /> </button> */}
+            
+            <div className="modal__container">
+                <img className="projects__img" src={content.img} alt="netflix-clone"/>
+                <div className="projects__cards--popup">
+                    <div className="popup-title">
+                        <span>project</span>
+                        <button onClick={close}><CloseIcon fontSize="large" /> </button>
+                    </div>
+                    <h2> {content.title} </h2>
+                    <div className="projects__cards--popup__tech">
+                        <ul>
+                            {/* {content.usedTech.map(data=>(
+                                <li> {data} </li>
+                            ))} */}
+                        </ul>
+                    </div>
+                    <span>about</span>
+                    <div className="project__para">
+                        <p> {content.content} </p>
+                    </div>
+                    <div className="popup__btn">
+                        <button><a href="#" target="_blank"><span><VisibilityIcon /> </span> Demo</a> </button>
+                        <button><a href="#" target="_blank"><span><CodeIcon /></span>code</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Modal
+
+
+*/**********************************************************************************
+import React, {useState, useEffect} from 'react'
+import VisibilityIcon from '@material-ui/icons/Visibility';
+import CloseIcon from '@material-ui/icons/Close';import CodeIcon from '@material-ui/icons/Code';
+import modalData from './modalData.json'
+import Modal from './Modal'
+import './css/main.css'
+function Projects() {
+    const [isOpen, setIsOpen] = useState(false)
+    const [content, setContent] = useState([])
+
+    useEffect(()=>{
+        modalData.map(data=>{
+            setContent(data)
+        })
+    }, [])
+
+
+    return (
+        <div className="projects">
+            <div className="projects__container">
+                <h1 className="project__title">projects</h1>
+                <p className="project__subTitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, fuga!</p>
+
+
+                    {/* ************************** */}
+                <div className="modal">
+                    <Modal open={isOpen} close={()=> setIsOpen(false)} content={content}  />
+                        
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Projects
+*******************************************************************************************
+*******************************************************************************************
+*******************************************************************************************
+
+
+import React, {useState, useEffect} from 'react'
+import VisibilityIcon from '@material-ui/icons/Visibility';
+import CloseIcon from '@material-ui/icons/Close';import CodeIcon from '@material-ui/icons/Code';
+import modalData from './modalData.json'
+import Modal from './Modal'
+import './css/main.css'
+function Projects() {
+    const [isOpen, setIsOpen] = useState(false)
+    const [content, setContent] = useState([])
+
+    useEffect(()=>{
+        modalData.map(data=>{
+            console.log(data)
+            setContent(data)
+        })
+    }, [])
+
+
+    return (
+        <div className="projects">
+            <div className="projects__container">
+                <h1 className="project__title">projects</h1>
+                <p className="project__subTitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, fuga!</p>
+
+                <div className="projects__cards_container">
+                    {content.map(data=>(
+                        console.log(data)
+                    ))}
+                        <div className="projects__cards">
+                            <div className="img-hover">
+                                <img className="projects__img" src={content.img} alt="netflix-clone"/>
+                                <div className="project__cards__btn">
+                                    <button onClick={()=> setIsOpen(true)} ><VisibilityIcon className="btn-icon" />View Project</button>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                    {/* ************************** */}
+                <div className="modal">
+                    <Modal open={isOpen}>
+                        <div className="modal__container">
+                            <img className="projects__img" src={content.img} alt="netflix-clone"/>
+                            <div className="projects__cards--popup">
+                                <div className="popup-title">
+                                    <span>project</span>
+                                    <button onClick={()=> setIsOpen(false)}><CloseIcon fontSize="large" /> </button>
+                                </div>
+                                <h2> {content.title} </h2>
+                                <div className="projects__cards--popup__tech">
+                                    <ul>
+                                        {/* {content.usedTech.map(data=>(
+                                            <li> {data} </li>
+                                        ))} */}
+                                    </ul>
+                                </div>
+                                <span>about</span>
+                                <div className="project__para">
+                                    <p> {content.content} </p>
+                                </div>
+                                <div className="popup__btn">
+                                    <button><a href="#" target="_blank"><span><VisibilityIcon /> </span> Demo</a> </button>
+                                    <button><a href="#" target="_blank"><span><CodeIcon /></span>code</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </Modal>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Projects

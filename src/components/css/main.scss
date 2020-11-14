@@ -1,15 +1,14 @@
 .showCase {
-  object-fit: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  // height: 100vh;
   .showCase__container {
+    background-color: #22262a;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    position: absolute;
-    top: 35%;
-
+    height: 100vh;
     @media (max-width: 600px) {
       position: absolute;
       top: 30%;
@@ -51,12 +50,14 @@
 // Projects css
 
 .projects {
+  background-color: #22262a;
   object-fit: contain;
-  margin-top: 40px;
+  height: 100vh;
   .projects__container {
     width: 75%;
     margin: auto;
     .project__title {
+      margin-top: 30px;
       font-size: 36px;
       text-transform: uppercase;
       color: ivory;
@@ -285,23 +286,5 @@
         }
       }
     }
-  }
-}
-
-// Footer css
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgb(31, 30, 30);
-  border: 1px solid #000;
-  overflow: hidden;
-  h4 {
-    text-align: center;
-    padding: 5px 0;
-    color: #cecece;
-    text-transform: capitalize;
   }
 }

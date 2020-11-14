@@ -1,33 +1,82 @@
 .nav {
   //   overflow: hidden;
   .nav__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-
-    h1 {
-      width: 120px;
+    margin-top: 30px;
+    .nav__title {
       text-align: center;
-      color: #f4f4f4;
-      margin-left: 30px;
-      text-transform: capitalize;
-      padding: 0 10px;
-      cursor: pointer;
-      span {
-        color: rgb(208, 211, 219);
+      h1 {
+        font-style: italic;
+        text-transform: capitalize;
+        span {
+          color: rgb(52, 59, 59);
+        }
+      }
+      h3 {
+        text-transform: capitalize;
+        text-shadow: 0px 1px 2px gray;
       }
     }
-    .nav__icon {
-      font-size: 46px;
-      position: fixed;
-      right: 50px;
-      color: #d4d4d4;
-      cursor: pointer;
-      transition: 220ms;
-
-      &:hover {
-        transform: scale(1.05);
+    .nav__links {
+      margin-top: 50px;
+      ul {
+        padding: 0 40px !important;
+        cursor: pointer;
+        li {
+          text-transform: capitalize;
+          background-color: #22262a;
+          padding: 10px 15px;
+          border-radius: 7px;
+          text-align: center;
+          margin: 10px 0;
+          box-shadow: 0px 0px 7px gray;
+          list-style: none;
+          .nav__links__tag {
+            color: ivory;
+            text-decoration: none;
+          }
+          &:hover {
+            background-color: #5b6166;
+          }
+        }
+      }
+    }
+    .nav__socials {
+      margin-top: 100px;
+      width: 150px;
+      div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h3 {
+          display: none;
+        }
+        .icons {
+          font-size: 30px;
+          cursor: pointer;
+          padding: 6px 3px;
+          color: ivory;
+          &:hover {
+            box-shadow: 1px 0px 3px gray;
+          }
+        }
+        .li {
+          background-color: rgb(55, 129, 241);
+        }
+        .gh {
+          background-color: #22262a;
+        }
+        .em {
+          background-color: lightgreen;
+        }
+        .desc {
+          background-color: #5b6166;
+        }
+      }
+    }
+    .footer {
+      .footer__container {
+        margin-top: 100px;
+        text-align: center;
       }
     }
   }
