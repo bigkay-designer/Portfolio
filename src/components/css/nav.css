@@ -29,7 +29,12 @@
   cursor: pointer;
 }
 
-.nav .nav__container .nav__links ul li {
+.nav .nav__container .nav__links ul .nav__links__tag {
+  color: ivory;
+  text-decoration: none;
+}
+
+.nav .nav__container .nav__links ul .nav__links__tag li {
   text-transform: capitalize;
   background-color: #22262a;
   padding: 10px 15px;
@@ -41,12 +46,7 @@
   list-style: none;
 }
 
-.nav .nav__container .nav__links ul li .nav__links__tag {
-  color: ivory;
-  text-decoration: none;
-}
-
-.nav .nav__container .nav__links ul li:hover {
+.nav .nav__container .nav__links ul .nav__links__tag li:hover {
   background-color: #5b6166;
 }
 

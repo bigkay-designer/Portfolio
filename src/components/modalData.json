@@ -1,7 +1,7 @@
 [
     {
-        "id": "netflix",
-        "title": "netflix-clone",
+        "id": "Netflix",
+        "title": "Netflix Clone",
         "img":"https://upload.wikimedia.org/wikipedia/en/f/f4/Netflix_-_English.jpg",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
@@ -14,5 +14,37 @@
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
         "github": "https://github.com/bigkay-designer/budget-app"
+    },
+    {
+        "id": "Twitter",
+        "title": "Twitter clone",
+        "img":"https://i0.wp.com/www.xanjero.com/wp-content/uploads/2020/08/Twitter-Reply-Limit-Option-Opens-to-All-iOS-Users-after-Extensive-Testing.jpg?fit=1000%2C563&ssl=1",
+        "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "github": "https://github.com/bigkay-designer/twitter-deployment"
+    },
+    {
+        "id": "Callmyneighbour",
+        "title": "Connect with your neighbour",
+        "img":"https://www.pbctoday.co.uk/news/wp-content/uploads/2018/12/BIM-adds-value-to-intelligent-buildings-says-report-%C2%A9-Stepanenko-Oksana-.jpg",
+        "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "github": "https://github.com/bigkay-designer/call-my-neighbour"
+    },
+    {
+        "id": "Fun Facts",
+        "title": "Fun Facts Blog Post",
+        "img":"https://lh3.googleusercontent.com/proxy/9Ze9-338XOcHiTGueltg1rUgGgD1FOgltr_1bIVoSTwpqgQQnDY4wo0rvS-pMZ0epUmEJ-fMtKA00S5mF6phagfl7F-3bBfHqZfBCfj4urF8ZB3MXi0sPVs9u6-LgZAmHxUtTi299Q5PwbSZpSF5JkgyuStqlLpaEQ",
+        "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "github": "https://github.com/bigkay-designer/sams-project-depo"
+    },
+    {
+        "id": "Expense Tracker",
+        "title": "Expense Tracker",
+        "img":"https://assets.materialup.com/uploads/d4e5a168-7074-4ff4-8a3f-048e9fa7de48/preview.png",
+        "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "github": "https://github.com/bigkay-designer/expense-app"
     }
 ]

@@ -17,10 +17,10 @@ function Nav() {
                 </div>
                 <div className="nav__links">
                     <ul>
-                        <li><Link className="nav__links__tag" to="/home">home</Link> </li>
-                        <li><Link className="nav__links__tag" to="/home">about</Link> </li>
-                        <li><Link className="nav__links__tag" to="/home">portfolio</Link> </li>
-                        <li><Link className="nav__links__tag" to="/home">contact</Link> </li>
+                        <Link className="nav__links__tag" to="/"><li>home</li></Link>
+                        <Link className="nav__links__tag" to="/about"><li>about</li></Link>
+                        <Link className="nav__links__tag" to="/projects"><li>portfolio</li></Link>
+                        <Link className="nav__links__tag" to="/contact"><li>contact</li></Link>
                     </ul>
                 </div>
                 <div className="nav__socials">

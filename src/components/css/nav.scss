@@ -21,21 +21,21 @@
       ul {
         padding: 0 40px !important;
         cursor: pointer;
-        li {
-          text-transform: capitalize;
-          background-color: #22262a;
-          padding: 10px 15px;
-          border-radius: 7px;
-          text-align: center;
-          margin: 10px 0;
-          box-shadow: 0px 0px 7px gray;
-          list-style: none;
-          .nav__links__tag {
-            color: ivory;
-            text-decoration: none;
-          }
-          &:hover {
-            background-color: #5b6166;
+        .nav__links__tag {
+          color: ivory;
+          text-decoration: none;
+          li {
+            text-transform: capitalize;
+            background-color: #22262a;
+            padding: 10px 15px;
+            border-radius: 7px;
+            text-align: center;
+            margin: 10px 0;
+            box-shadow: 0px 0px 7px gray;
+            list-style: none;
+            &:hover {
+              background-color: #5b6166;
+            }
           }
         }
       }
