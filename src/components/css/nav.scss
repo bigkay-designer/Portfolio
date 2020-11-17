@@ -1,3 +1,6 @@
+.small__nav {
+  display: none;
+}
 .nav {
   background-color: ivory;
   .nav__menu__icons {
@@ -6,6 +9,7 @@
     cursor: pointer;
   }
   .nav__close {
+    display: none;
     padding: 15px;
     .nav__close__icons {
       cursor: pointer;
@@ -121,18 +125,52 @@
   }
 }
 
-.hide__nav {
-  display: none;
-}
 @media screen and (max-width: 760px) {
+  .small__nav {
+    display: block;
+    grid-area: nav;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    .nav__open {
+      padding: 20px 40px;
+      .nav__open__icons {
+        font-size: 50px;
+        color: rgb(241, 238, 238);
+        cursor: pointer;
+      }
+    }
+  }
+  .small__menu {
+    display: block !important;
+  }
   .nav {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 70%;
     height: 100vh;
+    animation: show 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+
+    @keyframes show {
+      from {
+        transform: scale(0);
+        opacity: 0;
+        z-index: -1;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+        z-index: 2;
+      }
+    }
+
+    .nav__close {
+      display: block;
+    }
     .nav__container {
-      margin-top: 100px;
+      margin-top: 60px;
       .nav__title {
         text-align: center;
         h1 {
@@ -150,9 +188,6 @@
       .nav__links {
         margin: 20px 0 !important;
         ul {
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
           cursor: pointer;
           li {
             padding: 10px 32px !important;
@@ -162,10 +197,11 @@
       .nav__socials {
         display: block !important;
         .nav__socials__icons {
-          width: 400px;
+          width: 100%;
           margin: auto;
           display: flex;
           flex-direction: row !important;
+          flex-wrap: wrap;
           justify-content: space-evenly !important;
           align-items: center;
         }
@@ -177,7 +213,7 @@
           // margin-top: 100px;
           text-align: center;
           .nav__contact {
-            margin-top: 30px;
+            margin: 30px 0 20px;
             padding: 0 7px 20px;
             text-align: center;
             h2 {

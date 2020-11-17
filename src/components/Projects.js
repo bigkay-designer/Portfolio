@@ -10,6 +10,7 @@ function Projects() {
 
 
     const openModalHandler = (val)=>{
+        window.scrollTo(0, 0);
         setIsOpen(val)
     }
 
@@ -48,7 +49,7 @@ function Projects() {
                                     <div className="projects__cards--popup">
                                         <div className="popup-title">
                                             <span>project</span>
-                                            <button onClick={()=>hideModalHandler(data.id)}><CloseIcon fontSize="large" /> </button>
+                                            <button onClick={()=>hideModalHandler(data.id)}><CloseIcon className="popup__close" style={{color: "red"}} fontSize="large" /> </button>
                                         </div>
                                         <h2> {data.title} </h2>
                                         <div className="projects__cards--popup__tech">
