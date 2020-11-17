@@ -1,5 +1,18 @@
 .nav {
   background-color: ivory;
+  .nav__menu__icons {
+    padding: 20px;
+    font-size: 48px;
+    cursor: pointer;
+  }
+  .nav__close {
+    padding: 15px;
+    .nav__close__icons {
+      cursor: pointer;
+      font-size: 40px;
+      color: rgb(34, 29, 29);
+    }
+  }
 
   //   overflow: hidden;
   .nav__container {
@@ -78,7 +91,7 @@
       }
     }
     .footer {
-      position: fixed;
+      position: relative;
       bottom: 0;
       right: 0;
       max-width: 290px;
@@ -88,7 +101,7 @@
         text-align: center;
         .nav__contact {
           margin-top: 30px;
-          padding-bottom: 20px;
+          padding: 0 7px 20px;
           text-align: center;
           h2 {
             font-size: 21px;
@@ -100,6 +113,84 @@
             a {
               text-decoration: none;
               color: inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.hide__nav {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+    .nav__container {
+      margin-top: 100px;
+      .nav__title {
+        text-align: center;
+        h1 {
+          font-style: italic;
+          text-transform: capitalize;
+          span {
+            color: rgb(52, 59, 59);
+          }
+        }
+        h3 {
+          text-transform: capitalize;
+          text-shadow: 0px 1px 2px gray;
+        }
+      }
+      .nav__links {
+        margin: 20px 0 !important;
+        ul {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          cursor: pointer;
+          li {
+            padding: 10px 32px !important;
+          }
+        }
+      }
+      .nav__socials {
+        display: block !important;
+        .nav__socials__icons {
+          width: 400px;
+          margin: auto;
+          display: flex;
+          flex-direction: row !important;
+          justify-content: space-evenly !important;
+          align-items: center;
+        }
+      }
+      .footer {
+        max-width: 100% !important;
+        .footer__container {
+          padding: 40px 0;
+          // margin-top: 100px;
+          text-align: center;
+          .nav__contact {
+            margin-top: 30px;
+            padding: 0 7px 20px;
+            text-align: center;
+            h2 {
+              font-size: 21px;
+              font-style: italic;
+            }
+            p {
+              color: #696969;
+              margin: 10px 0 0;
+              a {
+                text-decoration: none;
+                color: inherit;
+              }
             }
           }
         }

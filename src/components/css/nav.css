@@ -2,6 +2,22 @@
   background-color: ivory;
 }
 
+.nav .nav__menu__icons {
+  padding: 20px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.nav .nav__close {
+  padding: 15px;
+}
+
+.nav .nav__close .nav__close__icons {
+  cursor: pointer;
+  font-size: 40px;
+  color: #221d1d;
+}
+
 .nav .nav__container {
   margin-top: 30px;
 }
@@ -115,7 +131,7 @@
 }
 
 .nav .nav__container .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   right: 0;
   max-width: 290px;
@@ -128,7 +144,7 @@
 
 .nav .nav__container .footer .footer__container .nav__contact {
   margin-top: 30px;
-  padding-bottom: 20px;
+  padding: 0 7px 20px;
   text-align: center;
 }
 
@@ -145,5 +161,98 @@
 .nav .nav__container .footer .footer__container .nav__contact p a {
   text-decoration: none;
   color: inherit;
+}
+
+.hide__nav {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+  }
+  .nav .nav__container {
+    margin-top: 100px;
+  }
+  .nav .nav__container .nav__title {
+    text-align: center;
+  }
+  .nav .nav__container .nav__title h1 {
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  .nav .nav__container .nav__title h1 span {
+    color: #343b3b;
+  }
+  .nav .nav__container .nav__title h3 {
+    text-transform: capitalize;
+    text-shadow: 0px 1px 2px gray;
+  }
+  .nav .nav__container .nav__links {
+    margin: 20px 0 !important;
+  }
+  .nav .nav__container .nav__links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  .nav .nav__container .nav__links ul li {
+    padding: 10px 32px !important;
+  }
+  .nav .nav__container .nav__socials {
+    display: block !important;
+  }
+  .nav .nav__container .nav__socials .nav__socials__icons {
+    width: 400px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav .nav__container .footer {
+    max-width: 100% !important;
+  }
+  .nav .nav__container .footer .footer__container {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .nav .nav__container .footer .footer__container .nav__contact {
+    margin-top: 30px;
+    padding: 0 7px 20px;
+    text-align: center;
+  }
+  .nav .nav__container .footer .footer__container .nav__contact h2 {
+    font-size: 21px;
+    font-style: italic;
+  }
+  .nav .nav__container .footer .footer__container .nav__contact p {
+    color: #696969;
+    margin: 10px 0 0;
+  }
+  .nav .nav__container .footer .footer__container .nav__contact p a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 /*# sourceMappingURL=nav.css.map */

@@ -2,7 +2,7 @@
     {
         "id": "Netflix",
         "title": "Netflix Clone",
-        "img":"https://upload.wikimedia.org/wikipedia/en/f/f4/Netflix_-_English.jpg",
+        "img":"https://djmag.com/sites/default/files/article/image/netflix.png",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
         "live": "https://netflix-clone-8a913.web.app/",
@@ -23,6 +23,7 @@
         "img":"https://i0.wp.com/www.xanjero.com/wp-content/uploads/2020/08/Twitter-Reply-Limit-Option-Opens-to-All-iOS-Users-after-Extensive-Testing.jpg?fit=1000%2C563&ssl=1",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive"],
         "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "live": "https://twitter-clone-5d8fe.web.app/",
         "github": "https://github.com/bigkay-designer/twitter-deployment"
     },
     {

@@ -1,16 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import './css/nav.css'
-import {LinkedIn, GitHub, MailOutline, Description} from '@material-ui/icons'
+import {LinkedIn, GitHub, Close,Menu,  MailOutline, Description} from '@material-ui/icons'
 import MenuIcon from '@material-ui/icons/Menu';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
 // import GitHubIcon from '@material-ui/icons/GitHub';
 // import MailOutlineIcon from '@material-ui/icons/MailOutline';
 // import DescriptionIcon from '@material-ui/icons/Description';
 function Nav() {
+    const [hideNav, setHideNav] = useState(false)
+    const [nav, setNav] = useState(false)
+
     return (
-        <div className="nav">
-            <div className="nav__container">
+        <div className={`nav  ${hideNav && "hide__nav"}`}>
+            <div className={`nav__container`}>
+                <div className="nav__close">
+                    <span onClick={()=> setHideNav(true)}><Close className="nav__close__icons" /></span>
+                </div>
                 <div className="nav__title">
                     <h1><span>khalid</span> ibrahim</h1>
                     <h3>full stack developer and designer</h3>
