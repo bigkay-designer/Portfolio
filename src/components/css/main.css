@@ -140,7 +140,7 @@
   background-color: #2c2c2c;
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   opacity: 0.6;
@@ -204,7 +204,7 @@
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   width: 100%;
-  height: 530px;
+  height: 560px;
 }
 
 .projects .projects__container .modal .modal__container .projects__img {
@@ -247,19 +247,16 @@
 }
 
 .projects .projects__container .modal .modal__container .projects__cards--popup h2 {
+  margin: 0;
   color: ivory;
   text-transform: capitalize;
-}
-
-.projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech {
-  margin: 10px 0;
 }
 
 .projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech ul {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   padding: 0;
 }
@@ -355,10 +352,11 @@
 
 .about {
   background-color: #22262a;
+  padding-bottom: 30px;
 }
 
 .about .about__container {
-  width: 75%;
+  width: 85%;
   margin: auto;
 }
 
@@ -367,6 +365,7 @@
 }
 
 .about .about__container .about__title h1 {
+  margin: 0;
   color: ivory;
 }
 
@@ -376,11 +375,12 @@
 }
 
 .about .about__container .about__content {
-  margin-top: 20px;
+  margin-top: 10px;
   max-width: 700px;
 }
 
 .about .about__container .about__content p {
+  margin: 0;
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 1.5em;
@@ -405,19 +405,7 @@
 
 .about .about__container .about__skills__showCase .about__design,
 .about .about__container .about__skills__showCase .about__code {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
   border: 1px solid #fff;
   padding: 10px 0;
   border-radius: 20px;
@@ -444,6 +432,7 @@
 .about .about__container .about__skills__showCase .about__code .about__design__title p {
   color: var(--main-design-color);
   max-width: 300px;
+  margin: auto;
 }
 
 .about .about__container .about__skills__showCase .about__design .about__design__content,
@@ -458,15 +447,8 @@
   color: var(--main-title-design-color);
 }
 
-.about .about__container .about__skills__showCase .about__design .about__design__content p,
-.about .about__container .about__skills__showCase .about__code .about__design__content p {
-  color: #fff;
-  margin-top: 10px;
-  letter-spacing: 1px;
-}
-
-.about .about__container .about__skills__showCase .about__design .about__design__content .content__div,
-.about .about__container .about__skills__showCase .about__code .about__design__content .content__div {
+.about .about__container .about__skills__showCase .about__design .about__design__content ul,
+.about .about__container .about__skills__showCase .about__code .about__design__content ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -474,15 +456,15 @@
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   grid-gap: 10px;
-  border: 1px solid #000;
+  padding: 0;
 }
 
-.about .about__container .about__skills__showCase .about__design .about__design__content .content__div p,
-.about .about__container .about__skills__showCase .about__code .about__design__content .content__div p {
-  padding: 5px 10px;
+.about .about__container .about__skills__showCase .about__design .about__design__content ul li,
+.about .about__container .about__skills__showCase .about__code .about__design__content ul li {
+  border: 1px solid #000;
+  padding: 5px 15px;
   background-color: #3d4247;
   text-transform: capitalize;
-  margin-top: 10px;
   color: #fff;
 }
 
@@ -619,12 +601,23 @@
   }
 }
 
+@media screen and (max-width: 1160px) {
+  .about .about__container .about__skills__showCase .about__design__content ul {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .about .about__container .about__skills__showCase .about__design__tools ul {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .about {
     padding-bottom: 30px;
   }
   .about .about__container {
-    width: 95% !important;
+    width: 90% !important;
   }
   .about .about__container .about__skills__showCase {
     -ms-grid-columns: (1fr)[1] !important;
@@ -652,6 +645,17 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal__container .projects__cards--popup__tech ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 5px;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

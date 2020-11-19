@@ -11,7 +11,7 @@ function About (){
                     <h1>WHO AM I? </h1>
                 </div>
                 <div className="about__content">
-                    <p>I am junior full stack developer and UX/UI designer. I create beautful & functional websites. Feel free to have a look at some of my projects!</p>
+                    <p>I am junior full stack developer and UX/UI designer. I create responsive & functional websites. Feel free to have a look at some of my projects down below!</p>
                     
                 </div>
 
@@ -26,7 +26,12 @@ function About (){
                         </div>
                         <div className="about__design__content">
                             <h1>Things i enjoy designing</h1>
-                            <p>UX, UI, WEB, MOBILE,LOGOS</p>
+                            <ul>
+                                <li>UX, UI</li>
+                                <li>WEB</li>
+                                <li>MOBILE</li>
+                                <li>LOGOS</li>
+                            </ul>
                         </div>
                         <div className="about__design__tools">
                             <h1>design tools</h1>
@@ -49,16 +54,16 @@ function About (){
                         </div>
                         <div className="about__design__content">
                             <h1>Techs i know</h1>
-                            <div className="content__div">
-                                <p>html</p>
-                                <p>css</p>
-                                <p>sass</p>
-                                <p>material-ui</p>
-                                <p>javaScript</p>
-                                <p>react</p>
-                                <p>nodeJs</p>
-                                <p>nginx</p>
-                            </div>
+                            <ul>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>sass</li>
+                                <li>material-ui</li>
+                                <li>javaScript</li>
+                                <li>react</li>
+                                <li>nodeJs</li>
+                                <li>nginx</li>
+                            </ul>
                         </div>
                         <div className="about__design__tools">
                             <h1>dev tools</h1>
@@ -70,7 +75,7 @@ function About (){
                                 <li>github</li>
                                 <li>gitlao</li>
                                 <li>firebase</li>
-                                <li>digitalocean</li>
+                                <li>digital Ocean</li>
                             </ul>
                         </div>
                     </div>
