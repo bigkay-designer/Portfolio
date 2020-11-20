@@ -1,10 +1,28 @@
 [
     {
+        "id": "Twitter",
+        "title": "Twitter clone",
+        "img":"https://i0.wp.com/www.xanjero.com/wp-content/uploads/2020/08/Twitter-Reply-Limit-Option-Opens-to-All-iOS-Users-after-Extensive-Testing.jpg?fit=1000%2C563&ssl=1",
+        "usedTech": ["html & css","Sass", "Javascript", "react","node","express", "REST API","Database","firebase", "nginx server","Authentication", "digitalOcean", "ux/ui", "responsive"],
+        "content": ["The idea behind this project was to create a twitter-clone. It's a single page application that was build with reactJs as the front-end and node for the back-end", "User authentication using Json Web Tokens from REST api with node", "Responsive, user-friendly and used varius technologies, including the mern stack"],
+        "live": "https://twitter-clone-5d8fe.web.app/",
+        "github": "https://github.com/bigkay-designer/twitter-deployment"
+    },
+    {
+        "id": "Callmyneighbour",
+        "title": "Connect with your neighbour",
+        "img":"https://www.pbctoday.co.uk/news/wp-content/uploads/2018/12/BIM-adds-value-to-intelligent-buildings-says-report-%C2%A9-Stepanenko-Oksana-.jpg",
+        "usedTech": ["html & css", "Sass", "Javascript","node","express","Database", "nginx server","Authentication","CRUD", "digitalOcean", "ux/ui", "responsive"],
+        "content": ["The aim of this project was to create a platform that brings the community together. It's designed to connect close by ngihbours together in able for them to support each other when needed. You sign up to the website and instanlty you see the other users in your area.",  "This application has search functionality if you're looking for a specific user or area.", "It has full user authentication and authorization using passport.js.", "Used google maps api to display users in your residential area.", "Worked with mongoDB database to collect user data, CRUD with nodejs and express, SASS, javaScript and more."],
+        "live": "https://callmyneighbour.site/",
+        "github": "https://github.com/bigkay-designer/call-my-neighbour"
+    },
+    {
         "id": "Netflix",
         "title": "Netflix Clone",
         "img":"https://djmag.com/sites/default/files/article/image/netflix.png",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive", "REST API", "Axios"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "content": ["For this project i made a single page application using reactJs and sass. I cloned the design from netflix and i used TMDB (The Movie Database) api to get the movies data. ", "The Application is mobile-friendly and responsive."],
         "live": "https://netflix-clone-8a913.web.app/",
         "github": "https://github.com/bigkay-designer/netflix-clone"
     },
@@ -13,34 +31,16 @@
         "title": "Covdi-19 tracker",
         "img":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/97664/s960_Coronavirus_govuk.jpg",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive", "REST API"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "content": ["The idea behind this project was to create a twitter-clone. It's a single page application that was build with reactJs as the front-end and node for the back-end", "Responsive, user-friendly and used varius technologies, including the mern stack", "User authentication using Json Web Tokens"],
         "live": "https://covid-19tracker.site/",
         "github": "https://github.com/bigkay-designer/budget-app"
-    },
-    {
-        "id": "Twitter",
-        "title": "Twitter clone",
-        "img":"https://i0.wp.com/www.xanjero.com/wp-content/uploads/2020/08/Twitter-Reply-Limit-Option-Opens-to-All-iOS-Users-after-Extensive-Testing.jpg?fit=1000%2C563&ssl=1",
-        "usedTech": ["html & css", "Sass", "Javascript", "react","node","express", "REST API","Database","firebase", "nginx server","Authentication", "digitalOcean", "ux/ui", "responsive"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
-        "live": "https://twitter-clone-5d8fe.web.app/",
-        "github": "https://github.com/bigkay-designer/twitter-deployment"
-    },
-    {
-        "id": "Callmyneighbour",
-        "title": "Connect with your neighbour",
-        "img":"https://www.pbctoday.co.uk/news/wp-content/uploads/2018/12/BIM-adds-value-to-intelligent-buildings-says-report-%C2%A9-Stepanenko-Oksana-.jpg",
-        "usedTech": ["html & css", "Sass", "Javascript","node","express","Database", "nginx server","Authentication", "digitalOcean", "ux/ui", "responsive"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
-        "live": "https://callmyneighbour.site/",
-        "github": "https://github.com/bigkay-designer/call-my-neighbour"
     },
     {
         "id": "Fun Facts",
         "title": "Fun Facts Blog Post",
         "img":"https://lh3.googleusercontent.com/proxy/6KGkJvNk7jEDswZuv3gbn2lBC9eWRZ3bUvdn4Xhw3sdhiC94WUEO-vMjTJqmmzc98NGeMKKkDmmow_QHCoia34XxIAuCBtzNA4zVkSuE4sTNkukDgtzTaQI504CvT9xZ6z7HxNJJ5lB8Wc7WNPR4tbpjufHreOa89w",
         "usedTech": ["html & css", "Sass", "Javascript","node","express","Database", "nginx server","Authentication", "digitalOcean", "ux/ui", "responsive"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "content": ["The idea behind this project was to create a twitter-clone. It's a single page application that was build with reactJs as the front-end and node for the back-end", "Responsive, user-friendly and used varius technologies, including the mern stack", "User authentication using Json Web Tokens"],
         "live" : "https://outdoorfinest.co.uk/",
         "github": "https://github.com/bigkay-designer/sams-project-depo"
     },
@@ -49,7 +49,7 @@
         "title": "Expense Tracker",
         "img":"https://assets.materialup.com/uploads/d4e5a168-7074-4ff4-8a3f-048e9fa7de48/preview.png",
         "usedTech": ["html & css", "Sass", "Javascript","node", "express","nginx","digitalOcean", "ux/ui", "responsive"],
-        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ad blanditiis, cumque minima quod tempora! Voluptas amet placeat blanditiis quaerat.",
+        "content": ["The idea behind this project was to create a twitter-clone. It's a single page application that was build with reactJs as the front-end and node for the back-end", "Responsive, user-friendly and used varius technologies, including the mern stack", "User authentication using Json Web Tokens"],
         "live": "https://watchmyexpense.site/",
         "github": "https://github.com/bigkay-designer/expense-app"
     }

@@ -61,7 +61,11 @@ function Projects() {
                                         </div>
                                         <span>about</span>
                                         <div className="project__para">
-                                            <p> {data.content} </p>
+                                            <ul>
+                                                {data.content.map(content =>(
+                                                    <li> {content} </li>
+                                                ))}
+                                            </ul>
                                         </div>
                                         <div className="popup__btn">
                                             <button><a href={data.live} target="_blank"><span><VisibilityIcon /> </span> Demo</a> </button>

@@ -252,6 +252,10 @@
   text-transform: capitalize;
 }
 
+.projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech {
+  margin: 10px 0;
+}
+
 .projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech ul {
   display: -ms-grid;
   display: grid;
@@ -279,14 +283,37 @@
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__para {
   color: #94a4b4;
   margin: 10px 0 30px;
-  height: 170px;
+  height: 180px;
 }
 
-.projects .projects__container .modal .modal__container .projects__cards--popup .project__para p {
+.projects .projects__container .modal .modal__container .projects__cards--popup .project__para ul {
   margin-bottom: 20px;
-  letter-spacing: 0.5px;
-  line-height: 1.8em;
+  padding: 0 0px 0 10px;
+}
+
+.projects .projects__container .modal .modal__container .projects__cards--popup .project__para ul li {
+  font-size: 14px;
+  list-style-type: disc !important;
+  margin-bottom: 10px;
+  line-height: 1.5em;
   text-shadow: 0px 0px 0.5px #fff;
+}
+
+.projects .projects__container .modal .modal__container .projects__cards--popup .project__para::-webkit-scrollbar {
+  width: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+.projects .projects__container .modal .modal__container .projects__cards--popup .project__para::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.projects .projects__container .modal .modal__container .projects__cards--popup .project__para::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: #7b9ab3;
 }
 
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn {
@@ -352,7 +379,7 @@
 
 .about {
   background-color: #22262a;
-  padding-bottom: 30px;
+  height: 100vh;
 }
 
 .about .about__container {
@@ -445,6 +472,7 @@
 .about .about__container .about__skills__showCase .about__code .about__design__content h1 {
   text-transform: capitalize;
   color: var(--main-title-design-color);
+  margin-bottom: 15px;
 }
 
 .about .about__container .about__skills__showCase .about__design .about__design__content ul,
