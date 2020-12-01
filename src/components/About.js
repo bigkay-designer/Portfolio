@@ -11,7 +11,7 @@ function About (){
                     <h1>WHO AM I? </h1>
                 </div>
                 <div className="about__content">
-                    <p>I am junior full stack developer and UX/UI designer. I create responsive & functional websites. Feel free to have a look at some of my projects down below!</p>
+                    <p>I am full stack developer and UX/UI designer. I create responsive & user friendly websites. Feel free to have a look at some of my projects.</p>
                     
                 </div>
 
@@ -73,7 +73,7 @@ function About (){
                                 <li>terminal</li>
                                 <li>linux</li>
                                 <li>github</li>
-                                <li>gitlao</li>
+                                <li>gitlab</li>
                                 <li>firebase</li>
                                 <li>digital Ocean</li>
                             </ul>

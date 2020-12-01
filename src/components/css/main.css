@@ -54,6 +54,7 @@
   background-color: #22262a;
   -o-object-fit: contain;
      object-fit: contain;
+  padding-bottom: 150px;
 }
 
 .projects .projects__container {
@@ -62,7 +63,7 @@
 }
 
 .projects .projects__container .project__title {
-  margin-top: 30px;
+  margin: 30px 0 20px;
   font-size: 36px;
   text-transform: uppercase;
   color: ivory;
@@ -379,7 +380,7 @@
 
 .about {
   background-color: #22262a;
-  height: 100vh;
+  padding-bottom: 130px;
 }
 
 .about .about__container {

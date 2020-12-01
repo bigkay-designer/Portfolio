@@ -136,10 +136,8 @@
 }
 
 .nav .nav__container .footer {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  max-width: 290px;
+  max-width: 90%;
+  margin: auto;
 }
 
 .nav .nav__container .footer .footer__container {

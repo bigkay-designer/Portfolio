@@ -2,16 +2,16 @@
     {
         "id": "Twitter",
         "title": "Twitter clone",
-        "img":"https://i0.wp.com/www.xanjero.com/wp-content/uploads/2020/08/Twitter-Reply-Limit-Option-Opens-to-All-iOS-Users-after-Extensive-Testing.jpg?fit=1000%2C563&ssl=1",
+        "img":"https://res.cloudinary.com/diqgjrpua/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1606798922/portfolio%20images/screenshot-twitter-clone-5d8fe-web-app-1606798564397_lrfrpq.png",
         "usedTech": ["html & css","Sass", "Javascript", "react","node","express", "REST API","Database","firebase", "nginx server","Authentication", "digitalOcean", "ux/ui", "responsive"],
-        "content": ["The idea behind this project was to create a twitter-clone. It's a single page application that was build with reactJs as the front-end and node for the back-end", "It has full user authentication using Json Web Tokens from REST api with node", "Responsive, user-friendly and used varius technologies, including the mern stack", "Tested website and performed troubleshooting prior to live deployment"],
+        "content": ["The idea behind this project was to create a twitter-clone. It's a single page application that was build with reactJs as the front-end and node for the back-end","Utilizes Twitter api to retrieve and display tweets","Created an internal api to communicate and grab data from database.", "It has full user authentication using Json Web Tokens","Responsive, user-friendly and used varius technologies, including the mern stack", "Learned the entire full-stack process"],
         "live": "https://twitter-clone-5d8fe.web.app/",
         "github": "https://github.com/bigkay-designer/twitter-deployment"
     },
     {
         "id": "Callmyneighbour",
         "title": "Connect with your neighbour",
-        "img":"https://www.pbctoday.co.uk/news/wp-content/uploads/2018/12/BIM-adds-value-to-intelligent-buildings-says-report-%C2%A9-Stepanenko-Oksana-.jpg",
+        "img":"https://res.cloudinary.com/diqgjrpua/image/upload/v1606800223/portfolio%20images/screenshot-callmyneighbour-site-1606798735667_pqpidb.png",
         "usedTech": ["html & css", "Sass", "Javascript","node","express","Database", "nginx server","Authentication","CRUD", "digitalOcean", "ux/ui", "responsive"],
         "content": ["The aim of this project was to create a platform that brings the community together. It's designed to connect close by ngihbours in able for them to support each other when needed. You sign up to the website and instanlty you see the other users in your area.",  "This application has search functionality if you're looking for a specific user or area.", "It has full user authentication and authorization using passport.js.", "Used google maps api to display users in your residential area.", "Worked with mongoDB database to collect user data, CRUD with nodejs and express, SASS, javaScript and more."],
         "live": "https://callmyneighbour.site/",
@@ -20,7 +20,7 @@
     {
         "id": "Netflix",
         "title": "Netflix Clone",
-        "img":"https://djmag.com/sites/default/files/article/image/netflix.png",
+        "img":"https://res.cloudinary.com/diqgjrpua/image/upload/v1606799088/portfolio%20images/screenshot-netflix-clone-8a913-web-app-1606799046490_n36iuy.png",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive", "REST API", "Axios"],
         "content": ["For this project i made a single page application using reactJs and sass. I cloned the design from netflix and i used TMDB (The Movie Database) api to get the movies data. ", "The Application is mobile-friendly and responsive.", "Learned how to implement REST api and good UX experience"],
         "live": "https://netflix-clone-8a913.web.app/",
@@ -29,7 +29,7 @@
     {
         "id": "Covid",
         "title": "Covdi-19 tracker",
-        "img":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/97664/s960_Coronavirus_govuk.jpg",
+        "img":"https://res.cloudinary.com/diqgjrpua/image/upload/v1606799134/portfolio%20images/screenshot-covid-19tracker-site-1606799113535_x5nwwo.png",
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive", "REST API"],
         "content": ["This application showcases a live update of covid-19 global stats and it was built in reactJs.","Utilized disease.sh API to get the data.", "Used react-leaflet to display maps.", "Responsive and user-friendly"],
         "live": "https://covid-19tracker.site/",
@@ -38,9 +38,9 @@
     {
         "id": "Fun Facts",
         "title": "Fun Facts Blog Post",
-        "img":"https://lh3.googleusercontent.com/proxy/6KGkJvNk7jEDswZuv3gbn2lBC9eWRZ3bUvdn4Xhw3sdhiC94WUEO-vMjTJqmmzc98NGeMKKkDmmow_QHCoia34XxIAuCBtzNA4zVkSuE4sTNkukDgtzTaQI504CvT9xZ6z7HxNJJ5lB8Wc7WNPR4tbpjufHreOa89w",
+        "img":"https://res.cloudinary.com/diqgjrpua/image/upload/v1606799594/portfolio%20images/screenshot-outdoorfinest-co-uk-1606799570706_cskgfe.png",
         "usedTech": ["html & css", "Sass", "Javascript","node","express","Database", "nginx server","Authentication", "digitalOcean", "ux/ui", "responsive"],
-        "content": ["A blog post website for a social media influencer. Built with nodeJs, express and mongoDb database.", "Responsive, user-friendly and used varius technologies","Built with a user authentication system", "Includes admin panel where the client can add,update, and delete posts."],
+        "content": ["A blog post website for a social media influencer. Built with nodeJs, express and mongoDb database.","Includes admin panel where the client can add,update, and delete posts.", "Responsive, user-friendly and used varius technologies","Built with a user authentication system", "Tested website and performed troubleshooting prior to live deployment."],
         "live" : "https://outdoorfinest.co.uk/",
         "github": "https://github.com/bigkay-designer/sams-project-depo"
     }

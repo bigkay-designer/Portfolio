@@ -45,11 +45,12 @@
 .projects {
   background-color: #22262a;
   object-fit: contain;
+  padding-bottom: 150px;
   .projects__container {
     width: 85%;
     margin: auto;
     .project__title {
-      margin-top: 30px;
+      margin: 30px 0 20px;
       font-size: 36px;
       text-transform: uppercase;
       color: ivory;
@@ -293,7 +294,7 @@
 
 .about {
   background-color: #22262a;
-  height: 100vh;
+  padding-bottom: 130px;
   .about__container {
     width: 85%;
     margin: auto;
