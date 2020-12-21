@@ -2,7 +2,18 @@
   display: none;
 }
 .nav {
-  background-color: ivory;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   .nav__menu__icons {
     padding: 20px;
     font-size: 48px;
@@ -70,6 +81,17 @@
         align-items: flex-start;
         a {
           text-decoration: none;
+          color: inherit;
+
+          &:hover {
+            .nav__icons__title {
+              display: inline;
+            }
+          }
+        }
+        .nav__icons__title {
+          display: none;
+          font-weight: 900;
         }
         .icons {
           font-size: 30px;

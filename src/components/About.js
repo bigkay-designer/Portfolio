@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {SiJavascript, SiHtml5, SiReact, SiNodeDotJs, SiCss3, SiSass, SiFirebase, SiNginx} from 'react-icons/si'
 import {FaPencilRuler, FaFileCode} from 'react-icons/fa'
 import './css/main.css'
@@ -11,7 +12,7 @@ function About (){
                     <h1>WHO AM I? </h1>
                 </div>
                 <div className="about__content">
-                    <p>I am full stack developer and UX/UI designer. I create responsive & user friendly websites. Feel free to have a look at some of my projects.</p>
+                    <p>I am full stack developer who designs, builds and customize high-performing web applications. I have a passion for building responsive and engaging websites that focus on user experience, feel free to have a look at some of my <Link style={{color: 'lightblue'}} to="/projects">projects</Link>.</p>
                     
                 </div>
 

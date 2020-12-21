@@ -33,7 +33,7 @@
         "usedTech": ["html & css", "Sass", "Javascript", "react","firebase", "ux/ui", "responsive", "REST API"],
         "content": ["This application showcases a live update of covid-19 global stats and it was built in reactJs.","Utilized disease.sh API to get the data.", "Used react-leaflet to display maps.", "Responsive and user-friendly"],
         "live": "https://covid-19tracker.site/",
-        "github": "https://github.com/bigkay-designer/budget-app"
+        "github": "https://github.com/bigkay-designer/covid-tracker"
     },
     {
         "id": "Fun Facts",

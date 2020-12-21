@@ -2,19 +2,13 @@ import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import './css/nav.css'
 import {LinkedIn, GitHub, Close,Menu,  MailOutline, Description} from '@material-ui/icons'
-import MenuIcon from '@material-ui/icons/Menu';
+// import MenuIcon from '@material-ui/icons/Menu';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
 // import GitHubIcon from '@material-ui/icons/GitHub';
 // import MailOutlineIcon from '@material-ui/icons/MailOutline';
 // import DescriptionIcon from '@material-ui/icons/Description';
 function Nav() {
-    const [hideNav, setHideNav] = useState(false)
     const [nav, setNav] = useState(false)
-
-    const hideNavHandler = (e)=>{
-        e.preventDefault()
-        setHideNav(true)
-    }
 
     return (    
         <>
@@ -41,10 +35,10 @@ function Nav() {
                     </div>
                     <div className="nav__socials">
                         <div className="nav__socials__icons">
-                            <a href={"https://www.linkedin.com/"} target="_blank"><span> <LinkedIn className="icons li" /> </span></a>
-                            <a href={'https://github.com/bigkay-designer/'} target="_blank"><span> <GitHub className="icons gh" />  </span></a>
-                            <a href={"https://mail.google.com/mail/u/0/#inbox?compose=new"} target="_blank"><span> <MailOutline className="icons em" /> </span></a>
-                            <a href={"#"} target="_blank"><span> <Description className="icons desc" />   </span></a>
+                            <a href={"https://www.linkedin.com/in/khalid-ibrahim-3b2b71201"} target="_blank" rel="noreferrer"><span> <LinkedIn className="icons li" /> </span> <span className="nav__icons__title">LinkedIn</span> </a>
+                            <a href={'https://github.com/bigkay-designer/'} target="_blank" rel="noreferrer"><span> <GitHub className="icons gh" />  </span> <span className="nav__icons__title">GitHub</span> </a>
+                            <a href={"https://mail.google.com/mail/u/0/#inbox?compose=new"} target="_blank" rel="noreferrer"><span> <MailOutline className="icons em" /> </span> <span className="nav__icons__title">Email</span></a>
+                            <a href={"https://drive.google.com/file/d/1szQUGlUMihFLuhLDsjDv8HOG1whwcOAg/view?usp=sharing"} target="_blank" rel="noreferrer"><span> <Description className="icons desc" /> </span> <span className="nav__icons__title">Resume</span> </a>
                             
                         </div>
                     </div>
@@ -52,7 +46,7 @@ function Nav() {
                         <footer className="footer__container">
                             <div className="nav__contact">
                                 <h2>Any questions don't hesitate to contact me</h2>
-                                <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">ibrahimkhalid478@gmail.com</a></p>
+                                <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noreferrer">ibrahimkhalid478@gmail.com</a></p>
                                 <p>07494498323</p>
                             </div>
                             <h4> © 2020 Khalid Ibrahim. All Rights Reserved.</h4>

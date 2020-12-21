@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import CloseIcon from '@material-ui/icons/Close';import CodeIcon from '@material-ui/icons/Code';
 import modalData from './modalData.json'
@@ -6,23 +6,21 @@ import Modal from './Modal'
 import './css/main.css'
 function Projects() {
     const [isOpen, setIsOpen] = useState(false)
-    const [content, setContent] = useState([])
-
 
     const openModalHandler = (val)=>{
         window.scrollTo(0, 0);
         setIsOpen(val)
     }
 
-    const hideModalHandler = (val) =>{
-        setIsOpen(0)
+    const hideModalHandler = () =>{
+        setIsOpen(false)
     }
 
     return (
         <div className="projects">
             <div className="projects__container">
                 <h1 className="project__title">projects</h1>
-                <p className="project__subTitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, fuga!</p>
+                <p className="project__subTitle"> Down below you will find some of my latest projects which i have used various technologies!</p>
 
                     <div className="projects__cards_container">
                         {modalData.map((data)=>(
@@ -38,7 +36,7 @@ function Projects() {
                                </div>
                         ))}
                     </div>
-                    <div className={`${isOpen && "overlay-div"}`}></div>
+                    <div onClick={() => hideModalHandler()} className={`${isOpen && "overlay-div"}`}></div>
 
                     {/* ************************** */}
                 <div className="modal">
@@ -68,8 +66,8 @@ function Projects() {
                                             </ul>
                                         </div>
                                         <div className="popup__btn">
-                                            <button><a href={data.live} target="_blank"><span><VisibilityIcon /> </span> Demo</a> </button>
-                                            <button><a href={data.github} target="_blank"><span><CodeIcon /></span>code</a></button>
+                                            <button><a href={data.live} target="_blank" rel="noreferrer"><span><VisibilityIcon /> </span> Demo</a> </button>
+                                            <button><a href={data.github} target="_blank" rel="noreferrer"><span><CodeIcon /></span>code</a></button>
                                         </div>
                                     </div>
                                 </>

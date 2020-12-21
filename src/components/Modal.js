@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
-import VisibilityIcon from '@material-ui/icons/Visibility';
-import CloseIcon from '@material-ui/icons/Close';import CodeIcon from '@material-ui/icons/Code';
+import React from 'react'
+// import VisibilityIcon from '@material-ui/icons/Visibility';
+// import CloseIcon from '@material-ui/icons/Close';
 import './css/main.css'
 
 function Modal({open,  children}) {

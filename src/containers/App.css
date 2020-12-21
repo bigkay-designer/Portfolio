@@ -7,13 +7,12 @@
 body {
   --main-design-color: #a9a9a9;
   --main-title-design-color: ivory;
-  --main-bg-color: #22262a;
+  --main-bg-color: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   font-family: Inconsolata, sans-serif !important;
   letter-spacing: 0.7px;
 }
 
 .app {
-  /* height: 100vh; */
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: auto;
