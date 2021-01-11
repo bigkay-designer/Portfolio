@@ -95,6 +95,7 @@
 }
 
 .nav .nav__container .nav__socials .nav__socials__icons {
+  z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
