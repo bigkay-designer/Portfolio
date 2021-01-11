@@ -1,6 +1,18 @@
 .showCase {
     // height: 100vh;
     position: relative;
+    background-image: url("../../showcase-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // padding-top: 30px;
     .showcase__overlay {
       background-image: linear-gradient(
         to right,
@@ -15,27 +27,19 @@
       height: 100%;
     }
     .showCase__container {
-      z-index: 200;
-      background-image: url("../../showcase-bg.jpg");
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      object-fit: contain;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: left;
-      height: 100vh;
-  
+      text-align: center;
+
       p {
         z-index: 1;
         font-size: 32px;
         color: #fff;
         text-transform: capitalize;
         max-width: 630px;
-        padding: 0 15px;
+        padding: 0 10px;
         margin-bottom: 40px;
         line-height: 1.2em;
       }
@@ -68,4 +72,20 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 350px){
+    .showCase__container{
+      p{
+        margin-top: 50px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 760px){
+    .showCase{
+      .showCase__container{
+        text-align: left !important;
+
+    }}
   }

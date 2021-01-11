@@ -1,19 +1,5 @@
 .showCase {
   position: relative;
-}
-
-.showCase .showcase__overlay {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(161, 172, 184, 0.5)), color-stop(51%, rgba(31, 29, 26, 0.2)), to(rgba(9, 10, 15, 0.5)));
-  background-image: linear-gradient(to right, rgba(161, 172, 184, 0.5) 0%, rgba(31, 29, 26, 0.2) 51%, rgba(9, 10, 15, 0.5) 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.showCase .showCase__container {
-  z-index: 200;
   background-image: url("../../showcase-bg.jpg");
   background-position: center center;
   background-size: cover;
@@ -34,8 +20,34 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: left;
   height: 100vh;
+}
+
+.showCase .showcase__overlay {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(161, 172, 184, 0.5)), color-stop(51%, rgba(31, 29, 26, 0.2)), to(rgba(9, 10, 15, 0.5)));
+  background-image: linear-gradient(to right, rgba(161, 172, 184, 0.5) 0%, rgba(31, 29, 26, 0.2) 51%, rgba(9, 10, 15, 0.5) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.showCase .showCase__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .showCase .showCase__container p {
@@ -44,7 +56,7 @@
   color: #fff;
   text-transform: capitalize;
   max-width: 630px;
-  padding: 0 15px;
+  padding: 0 10px;
   margin-bottom: 40px;
   line-height: 1.2em;
 }
@@ -81,5 +93,17 @@
 
 .showCase .showCase__container .btn__resume:hover {
   background-color: #1d6780;
+}
+
+@media screen and (max-width: 350px) {
+  .showCase__container p {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .showCase .showCase__container {
+    text-align: left !important;
+  }
 }
 /*# sourceMappingURL=showcase.css.map */
