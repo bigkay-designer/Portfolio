@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import './css/main.css'
+import './css/showcase.css'
 function Showcase() {
     return (
             <div className="showCase">

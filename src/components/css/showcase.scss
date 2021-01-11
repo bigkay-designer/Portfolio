@@ -1,0 +1,71 @@
+.showCase {
+    // height: 100vh;
+    position: relative;
+    .showcase__overlay {
+      background-image: linear-gradient(
+        to right,
+        rgba(161, 172, 184, 0.5) 0%,
+        rgba(31, 29, 26, 0.2) 51%,
+        rgba(9, 10, 15, 0.5) 100%
+      );
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .showCase__container {
+      z-index: 200;
+      background-image: url("../../showcase-bg.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      object-fit: contain;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      height: 100vh;
+  
+      p {
+        z-index: 1;
+        font-size: 32px;
+        color: #fff;
+        text-transform: capitalize;
+        max-width: 630px;
+        padding: 0 15px;
+        margin-bottom: 40px;
+        line-height: 1.2em;
+      }
+      a {
+        z-index: 2;
+      }
+      button {
+        z-index: 1;
+        margin: 10px 0;
+        font-size: 20px;
+        text-transform: capitalize;
+        padding: 7px 17px;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(252, 228, 185);
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        &:hover {
+          background-color: orange;
+        }
+      }
+      .btn__resume {
+        background-color: rgb(80, 96, 190);
+        color: #fff;
+        &:hover {
+          background-color: rgb(29, 103, 128);
+        }
+      }
+    }
+  }

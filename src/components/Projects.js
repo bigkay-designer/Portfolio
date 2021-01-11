@@ -3,7 +3,7 @@ import VisibilityIcon from '@material-ui/icons/Visibility';
 import CloseIcon from '@material-ui/icons/Close';import CodeIcon from '@material-ui/icons/Code';
 import modalData from './modalData.json'
 import Modal from './Modal'
-import './css/main.css'
+import './css/project.css'
 function Projects() {
     const [isOpen, setIsOpen] = useState(false)
 

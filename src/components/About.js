@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import {SiJavascript, SiHtml5, SiReact, SiNodeDotJs, SiCss3, SiSass, SiFirebase, SiNginx} from 'react-icons/si'
 import {FaPencilRuler, FaFileCode} from 'react-icons/fa'
 import './css/main.css'
+import './css/about.css'
 function About (){
     return (
         <div className="about">

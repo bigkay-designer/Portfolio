@@ -3,11 +3,13 @@
 }
 
 .nav {
+  position: relative;
+  z-index: 100;
   background: #ece9e6;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ece9e6));
-  background: linear-gradient(to right, #ffffff, #ece9e6);
+  background: -webkit-gradient(linear, left top, right top, from(#f0f0f0), color-stop(#e0dcf7), to(rgba(115, 139, 155, 0.7)));
+  background: linear-gradient(to right, #f0f0f0, #e0dcf7, rgba(115, 139, 155, 0.7));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -117,6 +119,10 @@
   display: inline;
 }
 
+.nav .nav__container .nav__socials .nav__socials__icons a span {
+  color: #000;
+}
+
 .nav .nav__container .nav__socials .nav__socials__icons .nav__icons__title {
   display: none;
   font-weight: 900;
@@ -151,34 +157,51 @@
 }
 
 .nav .nav__container .footer {
-  max-width: 90%;
-  margin: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 80px;
 }
 
 .nav .nav__container .footer .footer__container {
-  padding: 40px 0;
+  z-index: 200;
+  background-color: rgba(27, 39, 53, 0.5);
+  padding: 20px 0;
   text-align: center;
 }
 
 .nav .nav__container .footer .footer__container .nav__contact {
   margin-top: 30px;
-  padding: 0 7px 20px;
+  padding: 0 5px 20px;
   text-align: center;
 }
 
 .nav .nav__container .footer .footer__container .nav__contact h2 {
+  color: #fff;
   font-size: 21px;
   font-style: italic;
 }
 
 .nav .nav__container .footer .footer__container .nav__contact p {
-  color: #696969;
+  color: #22cfee;
   margin: 10px 0 0;
+  font-weight: 900;
 }
 
 .nav .nav__container .footer .footer__container .nav__contact p a {
   text-decoration: none;
   color: inherit;
+}
+
+.nav .nav__container .footer .footer__container h4 {
+  color: #fff;
+}
+
+@media screen and (max-width: 350px) {
+  .footer {
+    position: relative !important;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -241,9 +264,6 @@
   .nav .nav__close {
     display: block;
   }
-  .nav .nav__container {
-    margin-top: 30px;
-  }
   .nav .nav__container .nav__title {
     text-align: center;
   }
@@ -289,29 +309,12 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .nav .nav__container .footer {
-    max-width: 100% !important;
-  }
-  .nav .nav__container .footer .footer__container {
-    padding: 40px 0;
-    text-align: center;
-  }
-  .nav .nav__container .footer .footer__container .nav__contact {
-    margin: 30px 0 20px;
-    padding: 0 7px 20px;
-    text-align: center;
-  }
-  .nav .nav__container .footer .footer__container .nav__contact h2 {
-    font-size: 21px;
-    font-style: italic;
-  }
-  .nav .nav__container .footer .footer__container .nav__contact p {
-    color: #696969;
-    margin: 10px 0 0;
-  }
-  .nav .nav__container .footer .footer__container .nav__contact p a {
-    text-decoration: none;
-    color: inherit;
+}
+
+@media screen and (min-width: 560px) and (max-width: 760px) {
+  .nav {
+    width: 60%;
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=nav.css.map */

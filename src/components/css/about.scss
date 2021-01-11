@@ -1,0 +1,202 @@
+.about {
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    padding-bottom: 130px;
+    .about__container {
+      width: 85%;
+      margin: auto;
+      // padding: 30px 20px;
+      .about__title {
+        padding-top: 30px;
+        h1 {
+          margin: 0;
+          color: ivory;
+        }
+        h3 {
+          color: #fff;
+          text-transform: uppercase;
+        }
+      }
+      .about__content {
+        margin-top: 10px;
+        max-width: 700px;
+        p {
+          margin: 0;
+          font-size: 18px;
+          letter-spacing: 1px;
+          line-height: 1.5em;
+          color: lightgray;
+        }
+      }
+      .about__skills__showCase {
+        background: #232526; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #010b14,
+          #232526
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #010b14,
+          #232526
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        border: 2px solid #000;
+        border-radius: 20px;
+        box-shadow: 0px 1px 2px rgb(0, 1, 19);
+        padding: 15px;
+        margin-top: 30px;
+        .about__design,
+        .about__code {
+          text-align: center;
+          border: 1px solid #fff;
+          padding: 10px 0;
+          border-radius: 20px;
+          .about__design__logo {
+            font-size: 56px;
+            color: rgb(76, 95, 76);
+          }
+          .about__design__title {
+            text-align: center;
+            h1 {
+              text-transform: capitalize;
+              color: var(--main-title-design-color);
+            }
+            p {
+              color: var(--main-design-color);
+              max-width: 300px;
+              margin: auto;
+            }
+          }
+          .about__design__content {
+            text-align: center;
+            margin: 10px;
+            h1 {
+              text-transform: capitalize;
+              color: var(--main-title-design-color);
+              margin-bottom: 15px;
+            }
+            ul {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-rows: auto;
+              grid-gap: 10px;
+              padding: 0;
+              li {
+                border: 1px solid #000;
+                padding: 5px 15px;
+                background-color: #3d4247;
+                text-transform: capitalize;
+                color: #fff;
+              }
+            }
+          }
+          .about__design__tools {
+            text-align: center;
+            margin: 10px;
+            h1 {
+              text-transform: capitalize;
+              color: var(--main-title-design-color);
+            }
+            ul {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-rows: auto;
+              grid-gap: 10px;
+              color: var(--main-design-color);
+              padding: 0 !important;
+              margin: 10px 0 0 0 !important;
+              li {
+                border: 1px solid #000;
+                background-color: #3d4247;
+                padding: 5px 10px;
+                color: #fff;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
+  
+      // code section
+  
+      .about__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0 0 0;
+        .about__skill__icons {
+          font-size: 40px;
+        }
+        .react {
+          color: rgb(112, 164, 233);
+        }
+        .js {
+          color: yellow;
+        }
+        .html {
+          color: rgb(190, 124, 2);
+        }
+        .css {
+          color: rgb(36, 62, 209);
+        }
+        .sass {
+          color: rgb(253, 142, 160);
+        }
+        .ngx {
+          color: rgb(14, 131, 14);
+        }
+        .fb {
+          color: rgb(255, 187, 0);
+        }
+        .nodejs {
+          color: lightgreen;
+        }
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 1160px) {
+    .about {
+      .about__container {
+        .about__skills__showCase {
+          .about__design__content {
+            ul {
+              grid-template-columns: repeat(2, 1fr) !important;
+            }
+          }
+          .about__design__tools {
+            ul {
+              grid-template-columns: repeat(2, 1fr) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .about {
+      padding-bottom: 30px;
+      .about__container {
+        width: 90% !important;
+        .about__skills__showCase {
+          grid-template-columns: repeat(1, 1fr) !important;
+          grid-gap: 20px 0;
+        }
+      }
+    }
+}
+
+@media screen and (min-width:760px){
+  .about{
+    padding:0 !important;
+    height: 100vh;
+  }
+  .about__icons{
+    margin: 50px 0 20px !important;
+  }
+}
