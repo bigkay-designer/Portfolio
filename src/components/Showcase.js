@@ -12,7 +12,7 @@ function Showcase() {
                             hit me up and let's create something special togther!
                         </p>
                         <Link  to="/projects"> <button>view projects</button> </Link>
-                        <button className="btn__resume"> <a href="https://drive.google.com/file/d/1szQUGlUMihFLuhLDsjDv8HOG1whwcOAg/view?usp=sharing" target="_blank" rel="noreferrer"> view Resume </a></button>
+                        <button className="btn__resume"> <a href="https://drive.google.com/file/d/142DzFIjNzHXdDmg94gl5Rn7xtQaNYvXK/view?usp=sharing" target="_blank" rel="noreferrer"> view Resume </a></button>
 
                 </div>
 

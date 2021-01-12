@@ -9,6 +9,7 @@ function Projects() {
 
     const openModalHandler = (val)=>{
         window.scrollTo(0, 0);
+        console.log(val)
         setIsOpen(val)
     }
 
@@ -25,11 +26,14 @@ function Projects() {
                     <div className="projects__cards_container">
                         {modalData.map((data)=>(
                             
-                               <div className="projects__cards">
+                               <div key={data.id} className="projects__cards">
+                                   <div className="project__intro">
+                                       <p> {data.projectIntro} </p>
+                                   </div>
                                    <div className="img-hover">
-                                       <img className="projects__img" src={data.img} alt="netflix-clone"/>
+                                       <img onClick={()=>openModalHandler(data.id)}  className="projects__img" src={data.img} alt="netflix-clone"/>
                                        <div className="project__cards__btn">
-                                           <button onClick={()=>openModalHandler(data.id)} ><VisibilityIcon className="btn-icon" />View Project</button>
+                                           <button onClick={()=>openModalHandler(data.id)} ><VisibilityIcon className="btn-icon" /> {data.title} </button>
                                        </div>
                                    </div>
                    
@@ -42,7 +46,7 @@ function Projects() {
                 <div className="modal">
                     {modalData.map(data=>(
                         <Modal open={isOpen === data.id} >
-                            <div className="modal__container">
+                            <div key={data.id} className="modal__container">
                                 <>  <img className="projects__img" src={data.img} alt="netflix-clone"/>
                                     <div className="projects__cards--popup">
                                         <div className="popup-title">

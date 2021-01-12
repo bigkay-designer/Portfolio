@@ -17,6 +17,7 @@ function Nav() {
                         <span onClick={()=> setNav(true)}><Menu className="nav__open__icons" /></span>
                     </div>
             </div>
+            <div onClick={()=> setNav(false)} className={`${nav && "small__overlay"}`}></div>
             <div className={`nav ${nav && "small__menu"}`}>
                 <div className="nav__close">
                     <span onClick={()=> setNav(false)}><Close className="nav__close__icons" /></span>
