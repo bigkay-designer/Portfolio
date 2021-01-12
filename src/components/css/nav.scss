@@ -1,14 +1,6 @@
 .small__nav {
   display: none;
 }
-.small__overlay{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 .nav {
   position: relative;
   z-index: 100;
@@ -176,6 +168,14 @@
 }
 
 @media screen and (max-width: 760px) {
+  .small__overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
   .small__nav {
     display: block;
     grid-area: nav;
