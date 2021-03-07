@@ -1,19 +1,19 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 import {SiJavascript, SiHtml5, SiReact, SiNodeDotJs, SiCss3, SiSass, SiFirebase, SiNginx} from 'react-icons/si'
 import {FaPencilRuler, FaFileCode} from 'react-icons/fa'
 import './css/main.css'
 import './css/about.css'
 function About (){
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="about__container">
                 <div className="about__title">
                     <h3>About me</h3>
                     <h1>WHO AM I? </h1>
                 </div>
                 <div className="about__content">
-                    <p>I am full stack developer who designs, builds and customize high-performing web applications. I have a passion for building responsive and engaging websites that focus on user experience, feel free to have a look at some of my <Link style={{color: 'lightblue'}} to="/projects">projects</Link>.</p>
+                    <p>I am full stack developer who designs, builds and customize high-performing web applications. I have a passion for building responsive and engaging websites that focus on user experience, feel free to have a look at some of my <Link to="projects" smooth={true} duration={1000} offset={-120}>projects</Link>.</p>
                     
                 </div>
 
@@ -24,7 +24,7 @@ function About (){
                         </div>
                         <div className="about__design__title">
                             <h1>Designer</h1>
-                            <p>I value simple content structure, clean design pattern, and thoughtful interactions.</p>
+                            <p>I value simple content structure, a clean design pattern, and thoughtful interactions.</p>
                         </div>
                         <div className="about__design__content">
                             <h1>Things i enjoy designing</h1>
@@ -51,7 +51,7 @@ function About (){
                             <FaFileCode />
                         </div>
                         <div className="about__design__title">
-                            <h1>full stack developer</h1>
+                            <h1>full-stack developer</h1>
                             <p>I like to code from scratch and enjoy bringing ideas to life in the browser.</p>
                         </div>
                         <div className="about__design__content">
@@ -83,7 +83,7 @@ function About (){
                     </div>
                 </div>
 
-                <div className="about__icons">
+                {/* <div className="about__icons">
                     <SiReact className="about__skill__icons react" />
                     <SiJavascript className="about__skill__icons js"  />
                     <SiHtml5 className="about__skill__icons html" />
@@ -92,7 +92,7 @@ function About (){
                     <SiFirebase className="about__skill__icons fb"  />
                     <SiNginx className="about__skill__icons ngx" />
                     <SiNodeDotJs className="about__skill__icons nodejs" />
-                </div>
+                </div> */}
             </div>
         </div>
     )

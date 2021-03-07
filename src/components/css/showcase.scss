@@ -1,91 +1,78 @@
-.showCase {
-    // height: 100vh;
-    position: relative;
-    background-image: url("../../showcase-bg.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    object-fit: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    // padding-top: 30px;
-    .showcase__overlay {
-      background-image: linear-gradient(
-        to right,
-        rgba(161, 172, 184, 0.5) 0%,
-        rgba(31, 29, 26, 0.2) 51%,
-        rgba(9, 10, 15, 0.5) 100%
-      );
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+.showCase{
+  // .showcase__overlay{
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   z-index: -1;
+  //   width: 100%;
+  //   height: 70vh;
+  //   background: radial-gradient(ellipse at bottom,#354747 0,#2d3b3b 100%);
+  // }
+  .showCase__container{
+    // background: radial-gradient(ellipse at bottom,#354747 0,#2d3b3b 100%);
+    padding: 30px 0;
+    p{
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+      color: #ccf7e3;
+      line-height: 1.2;
+      font-size: 26px;
+      text-align: left;
     }
-    .showCase__container {
+    .btn__div{
+      margin-top: 30px;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
-      text-align: center;
-
-      p {
-        z-index: 1;
-        font-size: 32px;
-        color: #fff;
-        text-transform: capitalize;
-        max-width: 630px;
-        padding: 0 10px;
-        margin-bottom: 40px;
-        line-height: 1.2em;
+      a{
+        text-decoration: none;
+        color: inheri;
       }
-      a {
-        z-index: 2;
-      }
-      button {
-        z-index: 1;
-        margin: 10px 0;
-        font-size: 20px;
-        text-transform: capitalize;
-        padding: 7px 17px;
-        border: none;
-        border-radius: 7px;
-        background-color: rgb(252, 228, 185);
-        cursor: pointer;
-        a {
-          text-decoration: none;
-          color: inherit;
+        button {
+          z-index: 1;
+          margin: 10px;
+          font-size: 16px;
+          text-transform: capitalize;
+          padding: 7px 17px;
+          border: none;
+          border-radius: 7px;
+          background-color: rgb(252, 228, 185);
+          cursor: pointer;
+          a {
+            text-decoration: none;
+            color: inherit;
+          }
+          &:hover {
+            background-color: orange;
+          }
         }
-        &:hover {
-          background-color: orange;
+        .btn__resume {
+          background-color: #27d3a8;
+          font-weight: 800;
+          color: #fff;
+          &:hover {
+            background-color: rgb(29, 103, 128);
+          }
         }
-      }
-      .btn__resume {
-        background-color: rgb(80, 96, 190);
-        color: #fff;
-        &:hover {
-          background-color: rgb(29, 103, 128);
-        }
-      }
     }
   }
+}
 
-  @media screen and (max-width: 350px){
+//  Media queries
+@media screen and (min-width:760px){
+  .showCase{
     .showCase__container{
-      p{
-        margin-top: 50px;
-      }
+      width: 85%;
+      margin: 0 auto;
     }
   }
+}
 
-  @media screen and (min-width: 760px){
-    .showCase{
-      .showCase__container{
-        text-align: left !important;
-
-    }}
+@media screen and (min-width: 1080px){
+  .showCase__container{
+    .showCase__container{
+      
+    }
   }
+}

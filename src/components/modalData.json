@@ -7,17 +7,17 @@
         "content": ["Utilizes Twitter api to retrieve and display tweets","Created an internal api to communicate and grab data from database.", "It has full user authentication using Json Web Tokens","Responsive, user-friendly and used varius technologies, including the mern stack", "Learned the entire full-stack process"],
         "live": "https://twitter-clone-5d8fe.web.app/",
         "github": "https://github.com/bigkay-designer/twitter-deployment",
-        "projectIntro": "Elegant look and well structed code, the idea behind this project was to create a twitter-clone. It's a single page application that was built with reactJs as the front-end and node for the back-end."
+        "projectIntro": "Elegant look and well-structured code, the idea behind this project was to create a twitter-clone. It's a single-page application that was built with reactJs as the front-end and node for the back-end."
     },
     {
         "id": "Callmyneighbour",
-        "title": "Connect with your neighbour",
+        "title": "Community App",
         "img":"https://res.cloudinary.com/diqgjrpua/image/upload/v1606800223/portfolio%20images/screenshot-callmyneighbour-site-1606798735667_pqpidb.png",
         "usedTech": ["html & CSS", "Sass", "Javascript","node","express","Database", "nginx server","Authentication","CRUD", "digitalOcean", "ux/ui", "responsive"],
         "content": ["This application has search functionality if you're looking for a specific user or area.", "It has full user authentication and authorization using passport.js.", "Used google maps api to display users in your residential area.", "Worked with mongoDB database to collect user data, CRUD with nodejs and express, SASS, javaScript and more."],
         "live": "https://callmyneighbour.site/",
         "github": "https://github.com/bigkay-designer/call-my-neighbour",
-        "projectIntro": "Amazing design and a bright idea, the aim of this project was to create a platform that brings the community together. It's designed to connect close by neighbour in order for them to support each other when needed. You sign up to the website and instanlty you see the other users in your area."
+        "projectIntro": "Amazing design and a bright idea, this project aimed to create a platform that brings the community together. It's designed to connect close neighbors for them to support each other when needed. You sign up to the website and instantly you see the other users in your area."
     },
     {
         "id": "Netflix",
@@ -27,7 +27,7 @@
         "content": ["For this project i made a single page application using reactJs and sass. I cloned the design from netflix and i used TMDB (The Movie Database) API to get the movies data. ", "The Application is mobile-friendly and responsive.", "Learned how to implement REST api and good UX experience"],
         "live": "https://netflix-clone-8a913.web.app/",
         "github": "https://github.com/bigkay-designer/netflix-clone",
-        "projectIntro": "Beautiful and clean UX design. this project layout is truly inspiring. Pulling the data from external movie API to show case latest playing movies on netflix."
+        "projectIntro": "Beautiful and clean UX design, this project layout is truly inspiring. Pulling the data from external movie API to showcase the latest playing movies on Netflix."
     },
     {
         "id": "Covid",
@@ -37,7 +37,7 @@
         "content": ["Utilized disease.sh API to get the data.", "Used react-leaflet to display maps.", "Displays live charts using react-charts", "Responsive and user-friendly"],
         "live": "https://covid-19tracker.site/",
         "github": "https://github.com/bigkay-designer/covid-tracker",
-        "projectIntro": "Adaptive design and great user experince, this application showcases a live update of covid-19 global stats and it was built in reactJs."
+        "projectIntro": "Adaptive design and great user experience, this application showcases a live update of covid-19 global stats and it was built in reactJs."
     },
     {
         "id": "Fun Facts",
@@ -47,6 +47,6 @@
         "content": ["Built with nodeJs, express and mongoDb database.","Includes admin panel where the client can add,update, and delete posts.", "Responsive, user-friendly and used varius technologies","Built with a user authentication system", "Tested website and performed troubleshooting prior to live deployment."],
         "live" : "https://outdoorfinest.co.uk/",
         "github": "https://github.com/bigkay-designer/sams-project-depo",
-        "projectIntro": "A blog post website for a social media influencer, built using node js and express. Beautiful design, responsive and mobile friendly."
+        "projectIntro": "A blog post website for a social media influencer, built using node js and express. Beautiful design, responsive, and mobile-friendly."
     }
 ]
