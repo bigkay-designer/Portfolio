@@ -1,5 +1,5 @@
 import React from 'react'
-import {LinkedIn, GitHub, Close,Menu,  MailOutline, Description} from '@material-ui/icons'
+import {LinkedIn, GitHub, Close,Menu,  MailOutline, Description, Email, Phone} from '@material-ui/icons'
 import './css/footer.css'
 function Footer() {
     return (
@@ -16,10 +16,10 @@ function Footer() {
                 </div>
                 <div className="footer__body">
                     <footer className="footer__body__container">
-                        <div className="nav__contact">
-                            <h2>Any questions don't hesitate to contact me</h2>
-                            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noreferrer">ibrahimkhalid478@gmail.com</a></p>
-                            <p>07494498323</p>
+                        <h2>Any questions don't hesitate to contact me</h2>
+                        <div className="contact__info">
+                            <div className="contact__info__div"><Email className="icons" /> <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kibrahim0199@gmail.com" target="_blank" rel="noreferrer"><p>kibrahim0199@gmail.com</p></a> </div>
+                            <div className="contact__info__div"><Phone className="icons" /><p> <a href="tel:+447494498323">07494498323</a></p> </div>
                         </div>
                         <div className="copyright">
                             <p> © 2021 Khalid Ibrahim. All Rights Reserved.</p>
