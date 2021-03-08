@@ -17,7 +17,17 @@
         "content": ["This application has search functionality if you're looking for a specific user or area.", "It has full user authentication and authorization using passport.js.", "Used google maps api to display users in your residential area.", "Worked with mongoDB database to collect user data, CRUD with nodejs and express, SASS, javaScript and more."],
         "live": "https://callmyneighbour.site/",
         "github": "https://github.com/bigkay-designer/call-my-neighbour",
-        "projectIntro": "Amazing design and a bright idea, this project aimed to create a platform that brings the community together. It's designed to connect close neighbors for them to support each other when needed. You sign up to the website and instantly you see the other users in your area."
+        "projectIntro": "Amazing design and a bright idea, this project aimed to create a platform that brings the community together. You sign up to the website and instantly see the other users in your area."
+    },
+    {
+        "id": "Web design agency",
+        "title": "Web Design Agency",
+        "img":"https://res.cloudinary.com/diqgjrpua/image/upload/v1615187350/Screenshot_2021-03-08_at_07.08.19_lraofb.png",
+        "usedTech": ["JSX & CSS", "Sass","material-ui", "Javascript", "react","firebase", "ux/ui", "responsive", "REST API", "Axios", "Form Submission"],
+        "content": ["For this project i made a single page application using reactJs and sass.", "The Application is mobile-friendly and responsive.", "Used react-router and react-scroll to navigate through different pages" , "Implemented form submission and good UX experience"],
+        "live": "https://bkdesignplus.com/",
+        "github": "https://github.com/bigkay-designer/services",
+        "projectIntro": "With appealing colors and a clean UX design, the project layout is truly stunning. This Application is mobile-friendly and fully responsive."
     },
     {
         "id": "Netflix",
@@ -27,7 +37,7 @@
         "content": ["For this project i made a single page application using reactJs and sass. I cloned the design from netflix and i used TMDB (The Movie Database) API to get the movies data. ", "The Application is mobile-friendly and responsive.", "Learned how to implement REST api and good UX experience"],
         "live": "https://netflix-clone-8a913.web.app/",
         "github": "https://github.com/bigkay-designer/netflix-clone",
-        "projectIntro": "Beautiful and clean UX design, this project layout is truly inspiring. Pulling the data from external movie API to showcase the latest playing movies on Netflix."
+        "projectIntro": "Beautiful and clean UX design, this project layout is truly inspiring. I am Pulling the data from an external movie API to showcase the latest playing movies on Netflix."
     },
     {
         "id": "Covid",

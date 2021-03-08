@@ -11,3 +11,10 @@ body {
   letter-spacing: 0.7px;
 }
 
+/*  media query */
+@media screen and (min-width: 1360px){
+  .app{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

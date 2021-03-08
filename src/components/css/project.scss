@@ -23,7 +23,7 @@
       margin: 20px auto 0;
       overflow-x: scroll;
       scroll-behavior: smooth;
-      height: 460px;
+      height: 440px;
       padding: 10px 0px;
       &::-webkit-scrollbar{
         width: 10px;
@@ -45,7 +45,7 @@
         align-items: center;
         box-shadow: 0 1px 6px #888888;
         margin:  10px 10px 10px;
-        padding: 10px;
+        padding: 10px 10px 40px;
         border-radius: 12px;
         position: relative;
         .project__intro{
@@ -138,7 +138,7 @@
       top: 0;
       left: 0;
       opacity: 0.6;
-      z-index: 300;
+      z-index: 100;
       // display: none;
     }
     .main__modal {
@@ -162,16 +162,14 @@
       to {
         transform: scale(1);
         opacity: 1;
-        z-index: 2;
+        z-index: 300;
       }
     }
     .modal {
       overflow: hidden;
       object-fit: contain;
       margin-top: 20px;
-      z-index: 400 !important;
       .modal__container {
-        z-index: 400 !important;
         height: 100vh;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -282,11 +280,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            position: absolute;
-            bottom: 30px;
-            right: 0;
             width: 100%;
-            margin-top: 10px;
+            margin: 20px 0;
             button {
               width: 100%;
               padding: 7px 25px;
@@ -361,9 +356,6 @@
         padding-left: 40px;
       }
     }
-  }
-  .services__btn{
-    display: none !important;
   }
 }
 

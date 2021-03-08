@@ -29,7 +29,7 @@
   margin: 20px auto 0;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  height: 460px;
+  height: 440px;
   padding: 10px 0px;
 }
 
@@ -68,7 +68,7 @@
   -webkit-box-shadow: 0 1px 6px #888888;
           box-shadow: 0 1px 6px #888888;
   margin: 10px 10px 10px;
-  padding: 10px;
+  padding: 10px 10px 40px;
   border-radius: 12px;
   position: relative;
 }
@@ -187,7 +187,7 @@
   top: 0;
   left: 0;
   opacity: 0.6;
-  z-index: 300;
+  z-index: 100;
 }
 
 .projects .projects__container .main__modal {
@@ -215,7 +215,7 @@
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
-    z-index: 2;
+    z-index: 300;
   }
 }
 
@@ -230,7 +230,7 @@
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
-    z-index: 2;
+    z-index: 300;
   }
 }
 
@@ -239,11 +239,9 @@
   -o-object-fit: contain;
      object-fit: contain;
   margin-top: 20px;
-  z-index: 400 !important;
 }
 
 .projects .projects__container .modal .modal__container {
-  z-index: 400 !important;
   height: 100vh;
   display: -ms-grid;
   display: grid;
@@ -405,11 +403,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  bottom: 30px;
-  right: 0;
   width: 100%;
-  margin-top: 10px;
+  margin: 20px 0;
 }
 
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn button {
@@ -483,9 +478,6 @@
   .projects .projects__container .project__header {
     max-width: 35%;
     padding-left: 40px;
-  }
-  .services__btn {
-    display: none !important;
   }
 }
 

@@ -66,7 +66,7 @@ function Projects() {
                             <NavigateNext />
                         </div>
                     </div>
-                            <div onClick={() => hideModalHandler()} className={`${isOpen && "overlay-div"}`}></div>
+                    <div onClick={() => hideModalHandler()} className={`${isOpen && "overlay-div"}`}></div>
 
                     {/* ************************** */}
                 <div className="modal">
@@ -78,6 +78,10 @@ function Projects() {
                                         <div className="popup-title">
                                             <span>project</span>
                                             <button onClick={()=>hideModalHandler(data.id)}><CloseIcon className="popup__close" style={{color: "red"}} fontSize="large" /> </button>
+                                        </div>
+                                        <div className="popup__btn">
+                                            <button className="demo"><a href={data.live} target="_blank" rel="noreferrer"><span><VisibilityIcon /> </span> Demo</a> </button>
+                                            <button className="code" ><a className="dark" href={data.github} target="_blank" rel="noreferrer"><span><CodeIcon className="dark" /></span>code</a></button>
                                         </div>
                                         <div className="project__body">
                                             <h2> {data.title} </h2>
@@ -96,10 +100,6 @@ function Projects() {
                                                     ))}
                                                 </ul>
                                             </div>
-                                        </div>
-                                        <div className="popup__btn">
-                                            <button className="demo"><a href={data.live} target="_blank" rel="noreferrer"><span><VisibilityIcon /> </span> Demo</a> </button>
-                                            <button className="code" ><a className="dark" href={data.github} target="_blank" rel="noreferrer"><span><CodeIcon className="dark" /></span>code</a></button>
                                         </div>
                                     </div>
                                 </>
