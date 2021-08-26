@@ -17,52 +17,100 @@
   padding-right: 3px;
 }
 
-.about__icons .react {
+.react {
   color: #70a4e9;
 }
 
-.about__icons .js {
+.js {
   color: yellow;
 }
 
-.about__icons .html {
-  color: #be7c02;
+.html {
+  color: #d18902;
 }
 
-.about__icons .css {
-  color: #243ed1;
+.css {
+  color: #2f48da;
 }
 
-.about__icons .sass {
+.sass {
   color: #fd8ea0;
 }
 
-.about__icons .ngx {
+.material {
+  color: #0c7ad4;
+}
+
+.ngx {
   color: #0e830e;
 }
 
-.about__icons .fb {
+.fb {
   color: #ffbb00;
 }
 
-.about__icons .nodejs {
+.nodejs {
   color: lightgreen;
 }
 
-.about__icons .mongo {
+.mongo {
   color: #589636;
 }
 
-.about__icons .linux {
+.linux {
   color: white;
 }
 
-.about__icons .figma {
+.figma {
   color: #e04a34;
 }
 
-.about__icons .vs {
+.vs {
   color: #0078d7;
+}
+
+.sublime {
+  color: chocolate;
+}
+
+.terminal {
+  color: #f2f2f2;
+}
+
+.github {
+  color: #f4f4f4;
+}
+
+.dg {
+  color: #5884d4;
+}
+
+.sketch {
+  color: goldenrod;
+}
+
+.adobe {
+  color: #c527c5;
+}
+
+.photoshop {
+  color: #0572cc;
+}
+
+.ux {
+  color: goldenrod;
+}
+
+.internet {
+  color: #4bb9dd;
+}
+
+.mobile {
+  color: #05e0ce;
+}
+
+.logo {
+  color: #a53513;
 }
 
 @media screen and (min-width: 1080px) {

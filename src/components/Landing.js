@@ -1,13 +1,13 @@
-import React from 'react'
-import Showcase from './Showcase'
-import About from './About'
-import Project from './Projects'
+import React from 'react';
+import About from './About';
+import Projects from './Projects';
 function Landing() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <Projects />
+      <About />
+    </div>
+  );
 }
 
-export default Landing
+export default Landing;

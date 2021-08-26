@@ -1,58 +1,97 @@
 .about__icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background: radial-gradient(ellipse at bottom, rgb(27, 39, 53) 0%, #090a0f 100%);
-    padding: 10px;
-    .about__skill__icons {
-      font-size: 40px;
-      padding-right: 3px;
-    }
-    .react {
-      color: rgb(112, 164, 233);
-    }
-    .js {
-      color: yellow;
-    }
-    .html {
-      color: rgb(190, 124, 2);
-    }
-    .css {
-      color: rgb(36, 62, 209);
-    }
-    .sass {
-      color: rgb(253, 142, 160);
-    }
-    .ngx {
-      color: rgb(14, 131, 14);
-    }
-    .fb {
-      color: rgb(255, 187, 0);
-    }
-    .nodejs {
-      color: lightgreen;
-    }
-    .mongo{
-      color: #589636;
-    }
-    .linux{
-      color: rgb(255, 255, 255);
-    }
-    .figma{
-      color: #e04a34
-      ;
-    }
-    .vs{
-      color: #0078d7;
-    }
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: radial-gradient(
+    ellipse at bottom,
+    rgb(27, 39, 53) 0%,
+    #090a0f 100%
+  );
+  padding: 10px;
+  .about__skill__icons {
+    font-size: 40px;
+    padding-right: 3px;
+  }
+}
+.react {
+  color: rgb(112, 164, 233);
+}
+.js {
+  color: yellow;
+}
+.html {
+  color: rgb(209, 137, 2);
+}
+.css {
+  color: rgb(47, 72, 218);
+}
+.sass {
+  color: rgb(253, 142, 160);
+}
+.material {
+  color: #0c7ad4;
+}
+.ngx {
+  color: rgb(14, 131, 14);
+}
+.fb {
+  color: rgb(255, 187, 0);
+}
+.nodejs {
+  color: lightgreen;
+}
+.mongo {
+  color: #589636;
+}
+.linux {
+  color: rgb(255, 255, 255);
+}
+.figma {
+  color: #e04a34;
+}
+.vs {
+  color: #0078d7;
+}
+.sublime {
+  color: chocolate;
+}
+.terminal {
+  color: #f2f2f2;
+}
+.github {
+  color: #f4f4f4;
+}
+.dg {
+  color: rgb(88, 132, 212);
+}
+.sketch {
+  color: goldenrod;
+}
+.adobe {
+  color: rgb(197, 39, 197);
+}
+.photoshop {
+  color: rgb(5, 114, 204);
+}
+.ux {
+  color: goldenrod;
+}
+.internet {
+  color: rgb(75, 185, 221);
+}
+.mobile {
+  color: rgb(5, 224, 206);
+}
+.logo {
+  color: rgb(165, 53, 19);
 }
 
 //  Media queries
-@media screen and(min-width:1080px){
-  .about__icons{
+@media screen and(min-width:1080px) {
+  .about__icons {
     flex-wrap: wrap;
     border-radius: 30px;
-    .about__skill__icons{
+    .about__skill__icons {
       margin: 20px;
     }
   }

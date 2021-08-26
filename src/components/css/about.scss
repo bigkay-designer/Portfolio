@@ -1,202 +1,150 @@
-li{
+li {
   list-style: none !important;
 }
 .about {
   margin-top: 20px;
-    background: radial-gradient(ellipse at bottom, #ffffff 0%, #ffffff 100%);
-    padding: 0 0 20px;
-    .about__container {
-      width: 95%;
-      margin: auto;
-      // padding: 30px 20px;
-      .about__title {
-        padding-top: 30px;
-        padding-left: 10px;
-        h1 {
-          margin: 0;
-          color: #012629;
-          font-size: 26px;
-        }
-        h3 {
-          color: #012629;
-          text-transform: uppercase;
+  background: radial-gradient(ellipse at bottom, #ffffff 0%, #ffffff 100%);
+  padding: 0 0 20px;
+  .about__container {
+    width: 95%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    .about__title {
+      padding-top: 30px;
+      padding-left: 10px;
+      h1 {
+        margin: 0;
+        color: #012629;
+        font-size: 26px;
+      }
+      h3 {
+        color: #012629;
+        text-transform: uppercase;
+      }
+    }
+    .about__content {
+      margin-top: 10px;
+      max-width: 700px;
+      padding-left: 10px;
+      p {
+        margin: 0;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        color: #01464b;
+        a {
+          color: rgb(20, 101, 250);
+          text-decoration: underline;
         }
       }
-      .about__content {
-        margin-top: 10px;
-        max-width: 700px;
-        padding-left: 10px;
-        p {
-          margin: 0;
-          font-size: 18px;
-          letter-spacing: 1px;
-          line-height: 1.5em;
-          color: #01464b;
-          a{
-            color: rgb(20, 101, 250);
+    }
+    .about__skills__showCase {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: auto;
+      grid-gap: 20px;
+      margin-top: 30px;
+      max-width: 100%;
+      padding: 20px 10px;
+      .about__design,
+      .about__code {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        box-shadow: 0px 2px 7px #bbb9b9;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        .about__design__logo {
+          font-size: 36px;
+          color: #0397a1;
+          text-align: center;
+        }
+        .about__design__title {
+          text-align: center;
+          margin-bottom: 20px;
+          h1 {
+            text-transform: capitalize;
+            color: var(--main-title-design-color);
             text-decoration: underline;
           }
+          p {
+            color: var(--main-design-color);
+            max-width: 300px;
+            margin: 10px auto 0;
+          }
+        }
+        h1 {
+          text-transform: capitalize;
+          text-align: center;
+        }
+        ul {
+          padding: 10px 15px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: auto;
+          row-gap: 20px;
+          column-gap: 15px;
+          margin: 0px 0 15px;
+        }
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 0;
+          margin: 10px 0px 0;
+          box-shadow: 0 0px 3px rgba(85, 85, 85, 0.5);
+          border-radius: 7px;
+          color: #cacaca;
+          background: radial-gradient(
+            ellipse at bottom,
+            #1b2735 0%,
+            #090a0f 100%
+          );
+          svg {
+            font-size: 22px;
+            padding-right: 10px;
+          }
         }
       }
+    }
+
+    // code section
+  }
+}
+
+//// media query
+@media screen and(min-width:760px) {
+  .about {
+    .about__container {
       .about__skills__showCase {
-        background: linear-gradient(
-          to right,
-          #ffffff,
-          #f5f5f5
-        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto;
-        grid-gap: 20px;
-        border: 1px solid rgb(218, 218, 218);
-        border-radius: 20px;
-        box-shadow: 0px 1px 2px rgb(98, 98, 99);
-        padding: 15px 10px;
-        margin-top: 30px;
         .about__design,
         .about__code {
-          text-align: center;
-          box-shadow: 0px 2px 7px#2d3b3b;
-          padding: 10px 5px;
-          border-radius: 20px;
-          .about__design__logo {
-            font-size: 46px;
-            color: #0397a1;
-          }
-          h1{
-            font-size: 26px;
-          }
-          li{
-            font-size: 16px;
-            box-shadow:0 0px 3px rgba(85, 85, 85, 0.5);
-            border-radius: 7px;
-            color: #d7f4f7;
-            font-weight: 500;
-          }
-          .about__design__title {
-            text-align: center;
-            h1 {
-              text-transform: capitalize;
-              color: var(--main-title-design-color);
-            }
-            p {
-              color: var(--main-design-color);
-              max-width: 300px;
-              margin:10px auto 0;
-            }
-          }
-          .about__design__content {
-            text-align: center;
-            margin: 10px;
-            h1 {
-              text-transform: capitalize;
-              color: var(--main-title-design-color);
-              margin-bottom: 15px;
-            }
-            ul {
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              grid-template-rows: auto;
-              grid-gap: 20px 15px;
-              padding: 0;
-              li {
-                padding: 5px 15px;
-                background: radial-gradient(ellipse at bottom,#354747 0,#2d3b3b 100%);
-                text-transform: capitalize;
-              }
-            }
-          }
-          .about__design__tools {
-            text-align: center;
-            margin: 10px;
-            h1 {
-              text-transform: capitalize;
-              color: var(--main-title-design-color);
-            }
-            ul {
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              grid-template-rows: auto;
-              grid-gap: 20px 15px;
-              color: var(--main-design-color);
-              padding: 0 !important;
-              margin: 10px 0 0 0 !important;
-              li {
-                background: radial-gradient(ellipse at bottom,#354747 0,#2d3b3b 100%);
-                padding: 5px 10px;
-                text-transform: capitalize;
-              }
-            }
-          }
-        }
-      }
-  
-      // code section
-  
-      .about__icons {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 30px 0 0 0;
-        .about__skill__icons {
-          font-size: 40px;
-        }
-        .react {
-          color: rgb(112, 164, 233);
-        }
-        .js {
-          color: yellow;
-        }
-        .html {
-          color: rgb(190, 124, 2);
-        }
-        .css {
-          color: rgb(36, 62, 209);
-        }
-        .sass {
-          color: rgb(253, 142, 160);
-        }
-        .ngx {
-          color: rgb(14, 131, 14);
-        }
-        .fb {
-          color: rgb(255, 187, 0);
-        }
-        .nodejs {
-          color: lightgreen;
-        }
-      }
-    }
-  }
-
-
-  @media screen and (max-width: 1160px) {
-    .about {
-      .about__container {
-        .about__skills__showCase {
-          .about__design__content {
-            ul {
-              grid-template-columns: repeat(2, 1fr) !important;
-            }
-          }
-          .about__design__tools {
-            ul {
-              grid-template-columns: repeat(2, 1fr) !important;
-            }
+          ul {
+            grid-template-columns: repeat(4, 1fr);
           }
         }
       }
     }
   }
+}
 
-  // Media Query
+@media screen and (max-width: 1160px) {
+  .about {
+    .about__container {
+      .about__skills__showCase {
+      }
+    }
+  }
+}
 
-@media screen and (min-width: 1080px){
-  .about{
-    .about__container{
-      .about__skills__showCase{
-        grid-template-columns: repeat(2, 1fr);
+// Media Query
+
+@media screen and (min-width: 1080px) {
+  .about {
+    .about__container {
+      .about__skills__showCase {
+        // grid-template-columns: repeat(qs, 1fr);
       }
     }
   }

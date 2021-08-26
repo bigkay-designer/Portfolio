@@ -38,10 +38,6 @@
       align-content: center;
 }
 
-.footer .nav__socials .nav__socials__icons a:hover .nav__icons__title {
-  display: inline;
-}
-
 .footer .nav__socials .nav__socials__icons .nav__icons__title {
   display: none;
   font-weight: 900;
@@ -121,7 +117,7 @@
 }
 
 .footer .footer__body .footer__body__container .contact__info .contact__info__div .icons {
-  color: #05E5C8;
+  color: #05e5c8;
 }
 
 .footer .footer__body .footer__body__container .contact__info .contact__info__div p {

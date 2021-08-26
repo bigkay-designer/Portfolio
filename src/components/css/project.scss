@@ -1,8 +1,8 @@
-.projects{
+.projects {
   margin: 40px 0 0px;
-  .projects__container{
+  .projects__container {
     position: relative;
-    .project__header{
+    .project__header {
       padding: 0 10px;
       .project__title {
         margin: 20px 0 10px;
@@ -15,28 +15,29 @@
         line-height: 1.4em;
         color: #01464b;
       }
-
     }
-    .projects__cards_container{
+    .projects__cards_container {
       position: relative;
       max-width: 95%;
       margin: 20px auto 0;
       overflow-x: scroll;
       scroll-behavior: smooth;
       height: 440px;
-      padding: 10px 0px;
-      &::-webkit-scrollbar{
+      padding: 10px 0;
+      border-left: 1px solid rgb(230, 230, 230);
+      border-right: 1px solid rgb(230, 230, 230);
+      border-radius: 12px;
+      &::-webkit-scrollbar {
         width: 10px;
         height: 10px;
-    }
-      .project__wrapper{
+      }
+      .project__wrapper {
         display: flex;
         position: absolute;
         top: 0;
         left: 0;
-
       }
-      .projects__cards{
+      .projects__cards {
         flex: 1 1;
         min-width: 240px;
         display: flex;
@@ -44,24 +45,23 @@
         justify-content: flex-start;
         align-items: center;
         box-shadow: 0 1px 6px #888888;
-        margin:  10px 10px 10px;
+        margin: 10px 10px 10px;
         padding: 10px 10px 40px;
         border-radius: 12px;
         position: relative;
-        .project__intro{
+        .project__intro {
           margin: 10px 0;
-          p{
+          p {
             line-height: 1.3em;
             color: rgb(37, 37, 37);
           }
         }
-        .img-hover{
+        .img-hover {
           .projects__img {
             width: 100%;
             height: 160px;
             object-fit: cover;
           }
-
         }
         .project__cards__btn {
           position: absolute;
@@ -106,30 +106,30 @@
         // *********************************
       }
     }
-    .services__btn{
+    .services__btn {
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 0px 0 60px;
-      .btn{
-          display:flex;
-          justify-content: center;
-          align-items: center;
-          width: 120px;
-          margin: 0 30px;
-          button{
-              width: 100%;
-              cursor: pointer;
-          }
-          .prev{
-              border: 1px solid #df4163;
-          }
-          .next{
-              background-color: #27d3a8;
-              color: #fff;
-          }
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        margin: 0 30px;
+        button {
+          width: 100%;
+          cursor: pointer;
+        }
+        .prev {
+          border: 1px solid #df4163;
+        }
+        .next {
+          background-color: #27d3a8;
+          color: #fff;
+        }
       }
-  }
+    }
     .overlay-div {
       background-color: rgb(73, 73, 73);
       width: 100%;
@@ -184,16 +184,16 @@
         .projects__cards--popup {
           padding: 10px;
           background-color: #343a41;
-          .project__body{
+          .project__body {
             overflow-x: scroll;
-            scroll-behavior: smooth;  
+            scroll-behavior: smooth;
             height: 350px;
             padding-bottom: 20px;
             margin: 10px 0;
-            @media screen and (max-width:360px){
+            @media screen and (max-width: 360px) {
               height: 220px;
             }
-            @media screen and (min-width:490px){
+            @media screen and (min-width: 490px) {
               height: 100%;
             }
             &::-webkit-scrollbar {
@@ -213,7 +213,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            svg{
+            svg {
               font-size: 22px;
             }
             button {
@@ -244,12 +244,12 @@
 
               li {
                 flex: 30%;
-                margin:10px 10px 10px 0;
+                margin: 10px 10px 10px 0;
                 list-style: none;
                 border: 1px solid #000;
                 padding: 3px 5px;
                 text-align: center;
-                color: #94a4b4;
+                color: #bac8d6;
                 text-shadow: 0px 0px 0.5px #fff;
                 text-transform: capitalize;
               }
@@ -291,7 +291,7 @@
               color: ivory;
               cursor: pointer;
               transform: scale(0.9);
-              
+
               a {
                 display: flex;
                 justify-content: center;
@@ -303,16 +303,15 @@
                 text-decoration: none;
                 text-transform: capitalize;
               }
-              .dark{
+              .dark {
                 color: #000;
-                &:hover{
+                &:hover {
                   color: #fff;
                 }
               }
               span {
                 padding-right: 3px;
               }
-              
             }
             .demo {
               background-color: #27d3a8;
@@ -325,7 +324,7 @@
               color: #000;
               &:hover {
                 background-color: rgba(148, 142, 132, 0.6);
-                .dark{
+                .dark {
                   color: #fff;
                 }
               }
@@ -338,20 +337,20 @@
 }
 
 /// media Queries
-@media screen and (min-width:860px){
-  .projects{
-    .projects__container{
-      .project__header{
+@media screen and (min-width: 860px) {
+  .projects {
+    .projects__container {
+      .project__header {
         max-width: 55%;
         padding-left: 40px;
       }
     }
   }
 }
-@media screen and (min-width:1500px){
-  .projects{
-    .projects__container{
-      .project__header{
+@media screen and (min-width: 1500px) {
+  .projects {
+    .projects__container {
+      .project__header {
         max-width: 35%;
         padding-left: 40px;
       }
@@ -361,21 +360,21 @@
 
 /// modal
 
-@media screen and (min-width:760px){
-  .main__modal{
+@media screen and (min-width: 760px) {
+  .main__modal {
     top: 70px !important;
     left: 50px !important;
   }
-  .modal{
-    .modal__container{
+  .modal {
+    .modal__container {
       height: 70vh !important;
-      .projects__cards--popup{
-        .project__body{
+      .projects__cards--popup {
+        .project__body {
           overflow-x: hidden !important;
           height: 100%;
-          .projects__cards--popup__tech{
-            ul{
-              li{
+          .projects__cards--popup__tech {
+            ul {
+              li {
                 flex: 25% !important;
               }
             }
@@ -386,17 +385,25 @@
   }
 }
 
-@media screen and (min-width:1060px){
-  .main__modal{
+@media screen and (min-width: 1060px) {
+  .projects {
+    .projects__container {
+      .projects__cards_container {
+        .projects__cards {
+          min-width: 340px;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+  .main__modal {
     top: 70px !important;
     left: 30% !important;
     max-width: 40% !important;
-    
   }
-  .modal{
-    .modal__container{
+  .modal {
+    .modal__container {
       height: 80vh !important;
-
     }
   }
 }
