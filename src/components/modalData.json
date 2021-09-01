@@ -20,15 +20,15 @@
       "responsive"
     ],
     "content": [
-      "Utilizes Twitter api to retrieve and display tweets",
-      "Created an internal api to communicate and grab data from database.",
-      "It has full user authentication using Json Web Tokens",
-      "Responsive, user-friendly and used varius technologies, including the mern stack",
-      "Learned the entire full-stack process"
+      "Utilizes Twitter API to retrieve and display tweets.",
+      "Created an internal API to communicate and grab data from the database.",
+      "It has full user authentication using JSON Web Tokens.",
+      "Responsive, user-friendly and used various technologies, including the MERN stack.",
+      "Tested website and performed troubleshooting before live deployment."
     ],
     "live": "https://twitter-clone-5d8fe.web.app/",
     "github": "https://github.com/bigkay-designer/twitter-deployment",
-    "projectIntro": "Elegant look and well-structured code, the idea behind this project was to create a twitter-clone. It's a single-page application that was built with reactJs as the front-end and node for the back-end."
+    "projectIntro": "Elegant look and well-structured code. The idea behind this project was to create a twitter-clone. It's a single-page application that was built with reactJs as the front-end and node for the back-end."
   },
   {
     "id": "E-Commerce",
@@ -39,10 +39,12 @@
       "Sass",
       "Javascript",
       "react",
+      "react router",
       "node",
-      "express",
+      "Stripe",
+      "checkout",
       "REST API",
-      "Database",
+      "MonogoDB",
       "firebase",
       "nginx server",
       "Authentication",
@@ -51,15 +53,15 @@
       "responsive"
     ],
     "content": [
-      "Utilizes Twitter api to retrieve and display tweets",
-      "Created an internal api to communicate and grab data from database.",
-      "It has full user authentication using Json Web Tokens",
-      "Responsive, user-friendly and used varius technologies, including the mern stack",
-      "Learned the entire full-stack process"
+      "Designed and developed the entire application.",
+      "Used Stripe for credit card payment gateways.",
+      "Created an internal API to communicate and grab data from the database.",
+      "Full user authentication and authorization using JSON Web Tokens.",
+      "Tested website for cross-browser compatibility."
     ],
     "live": "https://bkclothing-a57f8.web.app/",
     "github": "https://github.com/bigkay-designer/bkclothing",
-    "projectIntro": "Elegant look and well-structured code, the idea behind this project was to create a twitter-clone. It's a single-page application that was built with reactJs as the front-end and node for the back-end."
+    "projectIntro": "Fully functional e-commerce website with beautiful and clean UX design. This project is built using React for the frontend and NodeJs in the backend. It has a checkout page and uses Stripe for payment gateways."
   },
   {
     "id": "Callmyneighbour",
@@ -83,7 +85,8 @@
       "This application has search functionality if you're looking for a specific user or area.",
       "It has full user authentication and authorization using passport.js.",
       "Used google maps api to display users in your residential area.",
-      "Worked with mongoDB database to collect user data, CRUD with nodejs and express, SASS, javaScript and more."
+      "Worked with mongoDB database to collect user data.",
+      "CRUD with nodejs and express, SASS, javaScript and more."
     ],
     "live": "https://callmyneighbour.site/",
     "github": "https://github.com/bigkay-designer/call-my-neighbour",
@@ -107,14 +110,14 @@
       "Form Submission"
     ],
     "content": [
-      "For this project i made a single page application using reactJs and sass.",
+      "For this project, I made a single page application using reactJs and sass.",
       "The Application is mobile-friendly and responsive.",
-      "Used react-router and react-scroll to navigate through different pages",
-      "Implemented form submission and good UX experience"
+      "Used react-router and react-scroll to navigate through different pages.",
+      "Implemented form submission and good UX experience."
     ],
     "live": "https://bkdesignplus.com/",
     "github": "https://github.com/bigkay-designer/services",
-    "projectIntro": "With appealing colors and a clean UX design, the project layout is truly stunning. This Application is mobile-friendly and fully responsive."
+    "projectIntro": "With appealing colors and a clean UX design, this project layout is truly inspiring. This Application is mobile-friendly and fully responsive."
   },
   {
     "id": "Covid",

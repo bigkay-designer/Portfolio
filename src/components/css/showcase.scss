@@ -1,4 +1,4 @@
-.showCase{
+.showCase {
   // .showcase__overlay{
   //   position: absolute;
   //   top: 0;
@@ -8,10 +8,10 @@
   //   height: 70vh;
   //   background: radial-gradient(ellipse at bottom,#354747 0,#2d3b3b 100%);
   // }
-  .showCase__container{
+  .showCase__container {
     // background: radial-gradient(ellipse at bottom,#354747 0,#2d3b3b 100%);
     padding: 30px 0;
-    p{
+    p {
       max-width: 100%;
       margin: 0 auto;
       padding: 0 10px;
@@ -20,59 +20,50 @@
       font-size: 26px;
       text-align: left;
     }
-    .btn__div{
+    .btn__div {
       margin-top: 30px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      a{
+      a {
         text-decoration: none;
         color: inheri;
       }
-        button {
-          z-index: 1;
-          margin: 10px;
-          font-size: 16px;
-          text-transform: capitalize;
-          padding: 7px 17px;
-          border: none;
-          border-radius: 7px;
-          background-color: rgb(252, 228, 185);
-          cursor: pointer;
-          a {
-            text-decoration: none;
-            color: inherit;
-          }
-          &:hover {
-            background-color: orange;
-          }
+      button {
+        z-index: 1;
+        margin: 10px;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding: 7px 17px;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(252, 228, 185);
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          color: inherit;
         }
-        .btn__resume {
-          background-color: #27d3a8;
-          font-weight: 800;
-          color: #fff;
-          &:hover {
-            background-color: rgb(29, 103, 128);
-          }
+        &:hover {
+          background-color: orange;
         }
+      }
+      .btn__resume {
+        background-color: #27d3a8;
+        font-weight: 800;
+        color: #fff;
+        &:hover {
+          background-color: rgb(29, 103, 128);
+        }
+      }
     }
   }
 }
 
 //  Media queries
-@media screen and (min-width:760px){
-  .showCase{
-    .showCase__container{
+@media screen and (min-width: 760px) {
+  .showCase {
+    .showCase__container {
       width: 85%;
-      margin: 0 auto;
-    }
-  }
-}
-
-@media screen and (min-width: 1080px){
-  .showCase__container{
-    .showCase__container{
-      
     }
   }
 }

@@ -1,5 +1,5 @@
 .scroll__color {
-  color: #05E5C8 !important;
+  color: #05e5c8 !important;
 }
 
 .nav__scroll {
@@ -236,7 +236,7 @@
   }
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1200px) {
   .nav__container {
     max-width: 80%;
     margin: auto;
@@ -254,16 +254,9 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .subhead .subhead__container {
     max-width: 80%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .subhead .subhead__container {
-    max-width: 70%;
     margin: 0 auto;
   }
 }

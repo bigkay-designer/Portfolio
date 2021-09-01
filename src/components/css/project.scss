@@ -185,11 +185,11 @@
           padding: 10px;
           background-color: #343a41;
           .project__body {
-            overflow-x: scroll;
+            overflow-y: scroll;
             scroll-behavior: smooth;
             height: 350px;
             padding-bottom: 20px;
-            margin: 10px 0;
+            margin: 10px 0 20px;
             @media screen and (max-width: 360px) {
               height: 220px;
             }
@@ -241,6 +241,7 @@
               flex-wrap: wrap;
               align-items: center;
               padding: 0;
+              margin: 0 0 20px;
 
               li {
                 flex: 30%;
@@ -361,21 +362,29 @@
 /// modal
 
 @media screen and (min-width: 760px) {
-  .main__modal {
-    top: 70px !important;
-    left: 50px !important;
-  }
   .modal {
-    .modal__container {
-      height: 70vh !important;
-      .projects__cards--popup {
-        .project__body {
-          overflow-x: hidden !important;
-          height: 100%;
-          .projects__cards--popup__tech {
-            ul {
-              li {
-                flex: 25% !important;
+    max-width: 75%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects {
+    .projects__container {
+      .main__modal {
+        width: 70%;
+        max-width: 70%;
+      }
+      .modal {
+        .modal__container {
+          .projects__cards--popup {
+            height: 100vh;
+            .project__body {
+              .projects__cards--popup__tech {
+                ul {
+                  li {
+                    flex: 25% !important;
+                  }
+                }
               }
             }
           }
@@ -397,13 +406,8 @@
     }
   }
   .main__modal {
-    top: 70px !important;
-    left: 30% !important;
-    max-width: 40% !important;
-  }
-  .modal {
-    .modal__container {
-      height: 80vh !important;
-    }
+    top: 0px !important;
+    left: 0 !important;
+    max-width: 50% !important;
   }
 }
