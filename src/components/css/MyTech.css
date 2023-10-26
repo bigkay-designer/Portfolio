@@ -69,8 +69,8 @@
   color: #0078d7;
 }
 
-.sublime {
-  color: chocolate;
+.aws {
+  color: #fa9349;
 }
 
 .terminal {
@@ -111,6 +111,10 @@
 
 .logo {
   color: #a53513;
+}
+
+.docker {
+  color: #2688d8;
 }
 
 @media screen and (min-width: 1080px) {

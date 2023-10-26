@@ -49,7 +49,7 @@ function Footer() {
             </a>
             <a
               href={
-                'https://drive.google.com/file/d/169EBjqF3a43-fL4z5kQdQj22ZQfcFRxw/view?usp=sharing'
+                'https://drive.google.com/file/d/11cz5QiN3gxxnQfxzTReGNWZGSV8T-gAV/view?usp=sharing'
               }
               target="_blank"
               rel="noreferrer"
@@ -85,7 +85,7 @@ function Footer() {
               </div>
             </div>
             <div className="copyright">
-              <p> © 2021 Khalid Ibrahim. All Rights Reserved.</p>
+              <p> © 2023 Khalid Ibrahim. All Rights Reserved.</p>
             </div>
           </footer>
         </div>

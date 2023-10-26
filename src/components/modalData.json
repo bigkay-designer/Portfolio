@@ -64,6 +64,33 @@
     "projectIntro": "Fully functional e-commerce website with beautiful and clean UX design. This project is built using React for the frontend and NodeJs in the backend. It has a checkout page and uses Stripe for payment gateways."
   },
   {
+    "id": "Web design agency",
+    "title": "Web Design Agency",
+    "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1615187350/Screenshot_2021-03-08_at_07.08.19_lraofb.png",
+    "usedTech": [
+      "JSX & CSS",
+      "Sass",
+      "material-ui",
+      "Javascript",
+      "react",
+      "firebase",
+      "ux/ui",
+      "responsive",
+      "REST API",
+      "Axios",
+      "Form Submission"
+    ],
+    "content": [
+      "For this project, I made a single page application using reactJs and sass.",
+      "The Application is mobile-friendly and responsive.",
+      "Used react-router and react-scroll to navigate through different pages.",
+      "Implemented form submission and good UX experience."
+    ],
+    "live": "https://bkdesignplus.com/",
+    "github": "https://github.com/bigkay-designer/services",
+    "projectIntro": "With appealing colors and a clean UX design, this project layout is truly inspiring. This Application is mobile-friendly and fully responsive."
+  },
+  {
     "id": "Callmyneighbour",
     "title": "Community App",
     "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1606800223/portfolio%20images/screenshot-callmyneighbour-site-1606798735667_pqpidb.png",
@@ -91,33 +118,6 @@
     "live": "https://callmyneighbour.site/",
     "github": "https://github.com/bigkay-designer/call-my-neighbour",
     "projectIntro": "Amazing design and a bright idea, this project aimed to create a platform that brings the community together. You sign up to the website and instantly see the other users in your area."
-  },
-  {
-    "id": "Web design agency",
-    "title": "Web Design Agency",
-    "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1615187350/Screenshot_2021-03-08_at_07.08.19_lraofb.png",
-    "usedTech": [
-      "JSX & CSS",
-      "Sass",
-      "material-ui",
-      "Javascript",
-      "react",
-      "firebase",
-      "ux/ui",
-      "responsive",
-      "REST API",
-      "Axios",
-      "Form Submission"
-    ],
-    "content": [
-      "For this project, I made a single page application using reactJs and sass.",
-      "The Application is mobile-friendly and responsive.",
-      "Used react-router and react-scroll to navigate through different pages.",
-      "Implemented form submission and good UX experience."
-    ],
-    "live": "https://bkdesignplus.com/",
-    "github": "https://github.com/bigkay-designer/services",
-    "projectIntro": "With appealing colors and a clean UX design, this project layout is truly inspiring. This Application is mobile-friendly and fully responsive."
   },
   {
     "id": "Covid",

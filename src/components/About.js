@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { HiTerminal } from 'react-icons/hi';
 import { GoDeviceMobile } from 'react-icons/go';
+import { FaAws, FaDocker } from 'react-icons/fa';
 import {
   SiJavascript,
   SiHtml5,
@@ -13,7 +14,6 @@ import {
   SiNginx,
   SiMaterialUi,
   SiLinux,
-  SiSublimetext,
   SiGithub,
   SiDigitalocean,
   SiVisualstudio,
@@ -149,8 +149,8 @@ function About() {
                   <span>Visual studio</span>
                 </li>
                 <li>
-                  <SiSublimetext className="sublime" />
-                  <span>sublime</span>
+                  <FaAws className="aws" />
+                  <span>AWS</span>
                 </li>
                 <li>
                   <HiTerminal className="terminal" />
@@ -163,6 +163,10 @@ function About() {
                 <li>
                   <SiGithub className="github" />
                   <span>github</span>
+                </li>
+                <li>
+                  <FaDocker className="docker" />
+                  <span>docker</span>
                 </li>
                 <li>
                   <SiFirebase className="fb" />
