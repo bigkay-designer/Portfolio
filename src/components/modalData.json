@@ -86,7 +86,7 @@
       "Used react-router and react-scroll to navigate through different pages.",
       "Implemented form submission and good UX experience."
     ],
-    "live": "https://bkdesignplus.com/",
+    "live": "https://services-fb54d.web.app/",
     "github": "https://github.com/bigkay-designer/services",
     "projectIntro": "With appealing colors and a clean UX design, this project layout is truly inspiring. This Application is mobile-friendly and fully responsive."
   },
@@ -115,7 +115,7 @@
       "Worked with mongoDB database to collect user data.",
       "CRUD with nodejs and express, SASS, javaScript and more."
     ],
-    "live": "https://callmyneighbour.site/",
+    "live": "http://cmn.services/",
     "github": "https://github.com/bigkay-designer/call-my-neighbour",
     "projectIntro": "Amazing design and a bright idea, this project aimed to create a platform that brings the community together. You sign up to the website and instantly see the other users in your area."
   },

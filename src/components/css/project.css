@@ -1,28 +1,23 @@
 .projects {
   margin: 40px 0 0px;
 }
-
 .projects .projects__container {
   position: relative;
 }
-
 .projects .projects__container .project__header {
   padding: 0 10px;
 }
-
 .projects .projects__container .project__header .project__title {
   margin: 20px 0 10px;
   font-size: 36px;
   text-transform: uppercase;
   color: #012629;
 }
-
 .projects .projects__container .project__header .project__subTitle {
   font-size: 18px;
   line-height: 1.4em;
   color: #01464b;
 }
-
 .projects .projects__container .projects__cards_container {
   position: relative;
   max-width: 95%;
@@ -31,93 +26,61 @@
   scroll-behavior: smooth;
   height: 440px;
   padding: 10px 0;
-  border-left: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid rgb(230, 230, 230);
+  border-right: 1px solid rgb(230, 230, 230);
   border-radius: 12px;
 }
-
 .projects .projects__container .projects__cards_container::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
-
 .projects .projects__container .projects__cards_container .project__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1;
-          flex: 1 1;
+  flex: 1 1;
   min-width: 240px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-shadow: 0 1px 6px #888888;
-          box-shadow: 0 1px 6px #888888;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 1px 6px #888888;
   margin: 10px 10px 10px;
   padding: 10px 10px 40px;
   border-radius: 12px;
   position: relative;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .project__intro {
   margin: 10px 0;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .project__intro p {
   line-height: 1.3em;
-  color: #252525;
+  color: rgb(37, 37, 37);
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .img-hover .projects__img {
   width: 100%;
   height: 160px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .project__cards__btn {
   position: absolute;
   bottom: 0;
   right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
   display: block;
   cursor: pointer;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .project__cards__btn button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   font-size: 16px;
   font-weight: 900;
@@ -125,65 +88,44 @@
   padding: 7px;
   outline: none;
   text-transform: capitalize;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff512f), color-stop(51%, #f09819), to(#ff512f));
   background-image: linear-gradient(to right, #ff512f 0%, #f09819 51%, #ff512f 100%);
   background-size: 200% auto;
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .project__cards__btn button .btn-icon {
   padding-right: 3px;
 }
-
 .projects .projects__container .projects__cards_container .projects__cards .project__cards__btn button:hover {
   background-position: right center;
 }
-
 .projects .projects__container .services__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 0px 0 60px;
 }
-
 .projects .projects__container .services__btn .btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 120px;
   margin: 0 30px;
 }
-
 .projects .projects__container .services__btn .btn button {
   width: 100%;
   cursor: pointer;
 }
-
 .projects .projects__container .services__btn .btn .prev {
   border: 1px solid #df4163;
 }
-
 .projects .projects__container .services__btn .btn .next {
   background-color: #27d3a8;
   color: #fff;
 }
-
 .projects .projects__container .overlay-div {
-  background-color: #494949;
+  background-color: rgb(73, 73, 73);
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -192,7 +134,6 @@
   opacity: 0.6;
   z-index: 100;
 }
-
 .projects .projects__container .main__modal {
   background-color: #fff;
   position: fixed;
@@ -201,60 +142,34 @@
   width: 85%;
   margin: 0 auto;
   z-index: 300 !important;
-  -webkit-transform: translate(-20%, -20%);
-          transform: translate(-20%, -20%);
-  -webkit-animation: show 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-          animation: show 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transform: translate(-20%, -20%);
+  animation: show 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-
-@-webkit-keyframes show {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 0;
-    z-index: -1;
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-    z-index: 300;
-  }
-}
-
 @keyframes show {
   from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 0;
     z-index: -1;
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
     z-index: 300;
   }
 }
-
 .projects .projects__container .modal {
   overflow: hidden;
   -o-object-fit: contain;
      object-fit: contain;
   margin-top: 20px;
 }
-
 .projects .projects__container .modal .modal__container {
   height: 100vh;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1];
-      grid-template-columns: repeat(1, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
   width: 100%;
 }
-
 .projects .projects__container .modal .modal__container .projects__img {
   width: 100%;
   height: 160px;
@@ -262,12 +177,10 @@
      object-fit: cover;
   background-color: #343a41;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup {
   padding: 10px;
   background-color: #343a41;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__body {
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -275,94 +188,65 @@
   padding-bottom: 20px;
   margin: 10px 0 20px;
 }
-
 @media screen and (max-width: 360px) {
   .projects .projects__container .modal .modal__container .projects__cards--popup .project__body {
     height: 220px;
   }
 }
-
 @media screen and (min-width: 490px) {
   .projects .projects__container .modal .modal__container .projects__cards--popup .project__body {
     height: 100%;
   }
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__body::-webkit-scrollbar {
   width: 10px;
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__body::-webkit-scrollbar-thumb {
   border-radius: 7px;
-  background-color: #7b9ab3;
+  background-color: rgb(123, 154, 179);
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup-title svg {
   font-size: 22px;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup-title button {
   cursor: pointer;
   color: #2b2c2e;
   border: none;
   border-radius: 40%;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup-title button:hover {
-  background-color: #d5d7df;
+  background-color: rgb(213, 215, 223);
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup-title span {
   color: #fff;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup h2 {
   margin: 0;
   color: ivory;
   text-transform: capitalize;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech {
   margin: 10px 0;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 0;
   margin: 0 0 20px;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .projects__cards--popup__tech ul li {
-  -webkit-box-flex: 30%;
-      -ms-flex: 30%;
-          flex: 30%;
+  flex: 30%;
   margin: 10px 10px 10px 0;
   list-style: none;
   border: 1px solid #000;
@@ -372,23 +256,19 @@
   text-shadow: 0px 0px 0.5px #fff;
   text-transform: capitalize;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup span {
   color: #fff;
   text-transform: capitalize;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__para {
   color: #94a4b4;
   margin: 10px 0 30px;
   height: 180px;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__para ul {
   margin-bottom: 20px;
   padding: 0 0px 0 10px;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .project__para ul li {
   font-size: 14px;
   list-style-type: disc !important;
@@ -396,21 +276,13 @@
   line-height: 1.5em;
   text-shadow: 0px 0px 0.5px #fff;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 20px 0;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn button {
   width: 100%;
   padding: 7px 25px;
@@ -419,17 +291,11 @@
   border-radius: 7px;
   color: ivory;
   cursor: pointer;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn button a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-size: 22px;
   border: none;
   border-radius: 7px;
@@ -437,36 +303,28 @@
   text-decoration: none;
   text-transform: capitalize;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn button .dark {
   color: #000;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn button .dark:hover {
   color: #fff;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn button span {
   padding-right: 3px;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn .demo {
   background-color: #27d3a8;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn .demo:hover {
   background-color: rgba(126, 117, 117, 0.6);
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn .code {
   background-color: #fce4b9;
   color: #000;
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn .code:hover {
   background-color: rgba(148, 142, 132, 0.6);
 }
-
 .projects .projects__container .modal .modal__container .projects__cards--popup .popup__btn .code:hover .dark {
   color: #fff;
 }
@@ -477,20 +335,17 @@
     padding-left: 40px;
   }
 }
-
 @media screen and (min-width: 1500px) {
   .projects .projects__container .project__header {
     max-width: 35%;
     padding-left: 40px;
   }
 }
-
 @media screen and (min-width: 760px) {
   .modal {
     max-width: 75%;
   }
 }
-
 @media screen and (min-width: 992px) {
   .projects .projects__container .main__modal {
     width: 70%;
@@ -500,12 +355,9 @@
     height: 100vh;
   }
   .projects .projects__container .modal .modal__container .projects__cards--popup .project__body .projects__cards--popup__tech ul li {
-    -webkit-box-flex: 25% !important;
-        -ms-flex: 25% !important;
-            flex: 25% !important;
+    flex: 25% !important;
   }
 }
-
 @media screen and (min-width: 1060px) {
   .projects .projects__container .projects__cards_container .projects__cards {
     min-width: 340px;
@@ -516,5 +368,4 @@
     left: 0 !important;
     max-width: 50% !important;
   }
-}
-/*# sourceMappingURL=project.css.map */
+}/*# sourceMappingURL=project.css.map */

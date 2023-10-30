@@ -6,8 +6,10 @@ function Showcase() {
       <div className="showcase__overlay"></div>
       <div className="showCase__container">
         <p>
-          I'm a Full-Stack web developer currently based in Birmingham, United
-          Kingdom. Hit me up and let's create something special together!
+          Greetings! I'm Khalid, a passionate software engineer with a keen
+          focus on back-end development and an evolving expertise in front-end
+          technologies. I strive to blend innovative solutions with robust code,
+          bringing a wealth of experience from my journey so far.
         </p>
         <div className="btn__div">
           {/* <Link  to="projects" smooth={true} duration={1000} offset={-120}> <button>view projects</button> </Link> */}

@@ -1,24 +1,17 @@
 .about__icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  justify-content: space-evenly;
+  align-items: center;
+  background: radial-gradient(ellipse at bottom, rgb(27, 39, 53) 0%, #090a0f 100%);
   padding: 10px;
 }
-
 .about__icons .about__skill__icons {
   font-size: 40px;
   padding-right: 3px;
 }
 
 .react {
-  color: #70a4e9;
+  color: rgb(112, 164, 233);
 }
 
 .js {
@@ -26,15 +19,15 @@
 }
 
 .html {
-  color: #d18902;
+  color: rgb(209, 137, 2);
 }
 
 .css {
-  color: #2f48da;
+  color: rgb(47, 72, 218);
 }
 
 .sass {
-  color: #fd8ea0;
+  color: rgb(253, 142, 160);
 }
 
 .material {
@@ -42,11 +35,11 @@
 }
 
 .ngx {
-  color: #0e830e;
+  color: rgb(14, 131, 14);
 }
 
 .fb {
-  color: #ffbb00;
+  color: rgb(255, 187, 0);
 }
 
 .nodejs {
@@ -58,7 +51,7 @@
 }
 
 .linux {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .figma {
@@ -70,7 +63,7 @@
 }
 
 .aws {
-  color: #fa9349;
+  color: rgb(250, 147, 73);
 }
 
 .terminal {
@@ -82,7 +75,7 @@
 }
 
 .dg {
-  color: #5884d4;
+  color: rgb(88, 132, 212);
 }
 
 .sketch {
@@ -90,11 +83,11 @@
 }
 
 .adobe {
-  color: #c527c5;
+  color: rgb(197, 39, 197);
 }
 
 .photoshop {
-  color: #0572cc;
+  color: rgb(5, 114, 204);
 }
 
 .ux {
@@ -102,35 +95,32 @@
 }
 
 .internet {
-  color: #4bb9dd;
+  color: rgb(75, 185, 221);
 }
 
 .mobile {
-  color: #05e0ce;
+  color: rgb(5, 224, 206);
 }
 
 .logo {
-  color: #a53513;
+  color: rgb(165, 53, 19);
 }
 
 .docker {
   color: #2688d8;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1160px) {
   .about__icons {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     border-radius: 30px;
   }
   .about__icons .about__skill__icons {
     margin: 20px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .about__icons {
-    max-width: 75%;
+    padding: 0;
   }
-}
-/*# sourceMappingURL=MyTech.css.map */
+}/*# sourceMappingURL=MyTech.css.map */

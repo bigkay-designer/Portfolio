@@ -90,7 +90,7 @@
 }
 
 //  Media queries
-@media screen and(min-width:1080px) {
+@media screen and (min-width: 1160px) {
   .about__icons {
     flex-wrap: wrap;
     border-radius: 30px;
@@ -102,6 +102,6 @@
 
 @media screen and (min-width: 1200px) {
   .about__icons {
-    max-width: 75%;
+    padding: 0;
   }
 }
