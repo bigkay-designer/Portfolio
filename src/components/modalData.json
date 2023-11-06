@@ -139,7 +139,7 @@
       "Displays live charts using react-charts",
       "Responsive and user-friendly"
     ],
-    "live": "https://covid-19tracker.site/",
+    "live": "https://covid-19-tracker-f971d.web.app/",
     "github": "https://github.com/bigkay-designer/covid-tracker",
     "projectIntro": "Adaptive design and great user experience, this application showcases a live update of covid-19 global stats and it was built in reactJs."
   }
