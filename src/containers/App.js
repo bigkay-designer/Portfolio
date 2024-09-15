@@ -4,25 +4,24 @@ import NotFound from '../components/NotFound';
 import Footer from '../components/Footer';
 import Landing from '../components/Landing';
 import {
-  Route,
   BrowserRouter as Router,
-  Switch,
-  Redirect,
+  Routes,
+  Route,
+  Navigate,
 } from 'react-router-dom';
+
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="app">
-        {window.location.pathname !== '/' ? <Redirect to="/" /> : null}
-        <Nav />
-        <Switch>
-          <Route path="/" exact>
-            <Landing />
-          </Route>
+      <div className="App">
+        {window.location.pathname !== '/' ? <Navigate to="/" /> : null}
+        {/* <Nav /> */}
+        <Routes>
+          <Route path="/" exact element={<Landing />} />
           <Route component={NotFound} />
-        </Switch>
+        </Routes>
         <Footer />
       </div>
     </Router>

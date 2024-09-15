@@ -69,7 +69,7 @@ function Footer() {
               <div className="contact__info__div">
                 <Email className="icons" />{' '}
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kibrahim0199@gmail.com"
+                  href="mailto:kibrahim0199@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -85,7 +85,7 @@ function Footer() {
               </div>
             </div>
             <div className="copyright">
-              <p> © 2023 Khalid Ibrahim. All Rights Reserved.</p>
+              <p> © 2024 Khalid Ibrahim. All Rights Reserved.</p>
             </div>
           </footer>
         </div>

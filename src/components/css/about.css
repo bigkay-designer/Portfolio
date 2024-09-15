@@ -3,154 +3,112 @@ li {
 }
 
 .about {
-  margin-top: 20px;
-  background: radial-gradient(ellipse at bottom, #ffffff 0%, #ffffff 100%);
-  padding: 0 0 20px;
+  background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
+  padding: 60px 20px;
 }
-
 .about .about__container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
 }
-
-.about .about__container .about__title {
-  padding-top: 30px;
-  padding-left: 10px;
-}
-
 .about .about__container .about__title h1 {
-  margin: 0;
-  color: #012629;
-  font-size: 26px;
-}
-
-.about .about__container .about__title h3 {
-  color: #012629;
+  font-size: 36px;
   text-transform: uppercase;
+  color: #e2e8f0;
 }
-
 .about .about__container .about__content {
   margin-top: 10px;
   max-width: 700px;
-  padding-left: 10px;
 }
-
 .about .about__container .about__content p {
-  margin: 0;
-  font-size: 18px;
-  letter-spacing: 1px;
-  line-height: 1.5em;
-  color: #01464b;
+  max-width: 400px;
+  margin: 10px 0;
+  color: #94a3bb;
+  line-height: 1.3em;
+  font-size: 16px;
 }
-
 .about .about__container .about__content p a {
-  color: #1465fa;
+  color: #0078d7;
   text-decoration: underline;
   cursor: pointer;
 }
-
 .about .about__container .about__skills__showCase {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1];
-      grid-template-columns: repeat(1, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
   grid-gap: 20px;
   margin-top: 30px;
   max-width: 100%;
-  padding: 20px 10px;
+  padding: 20px 0px;
 }
-
 .about .about__container .about__skills__showCase .about__design,
 .about .about__container .about__skills__showCase .about__code {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
   width: 100%;
-  -webkit-box-shadow: 0px 2px 7px #bbb9b9;
-          box-shadow: 0px 2px 7px #bbb9b9;
-  border-radius: 7px;
+  border-radius: 12px;
   margin-bottom: 20px;
+  background-color: #1b2735;
 }
-
 .about .about__container .about__skills__showCase .about__design .about__design__logo,
 .about .about__container .about__skills__showCase .about__code .about__design__logo {
   font-size: 36px;
   color: #0397a1;
   text-align: center;
 }
-
 .about .about__container .about__skills__showCase .about__design .about__design__title,
 .about .about__container .about__skills__showCase .about__code .about__design__title {
   text-align: center;
   margin: 10px 0 20px;
 }
-
 .about .about__container .about__skills__showCase .about__design .about__design__title h1,
 .about .about__container .about__skills__showCase .about__code .about__design__title h1 {
+  color: #e2e8f0;
+  font-size: 36px;
+  font-weight: 900;
   text-transform: capitalize;
-  color: var(--main-title-design-color);
-  text-decoration: underline;
 }
-
 .about .about__container .about__skills__showCase .about__design .about__design__title p,
 .about .about__container .about__skills__showCase .about__code .about__design__title p {
-  color: var(--main-design-color);
-  max-width: 300px;
-  margin: 10px auto 0;
+  max-width: 400px;
+  margin: 10px auto;
+  color: #94a3bb;
+  line-height: 1.3em;
+  font-size: 16px;
+  padding: 0 10px;
 }
-
 .about .about__container .about__skills__showCase .about__design h1,
 .about .about__container .about__skills__showCase .about__code h1 {
   text-transform: capitalize;
   text-align: center;
+  padding: 0 10px;
+  color: #94a3bb;
+  font-size: 22px;
 }
-
 .about .about__container .about__skills__showCase .about__design ul,
 .about .about__container .about__skills__showCase .about__code ul {
   padding: 10px 15px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   row-gap: 20px;
-  -webkit-column-gap: 15px;
-          column-gap: 15px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   margin: 0px 0 15px;
 }
-
 .about .about__container .about__skills__showCase .about__design li,
 .about .about__container .about__skills__showCase .about__code li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-transform: capitalize;
   padding: 10px;
   margin: 10px 0px 0;
-  -webkit-box-shadow: 0 0px 3px rgba(85, 85, 85, 0.5);
-          box-shadow: 0 0px 3px rgba(85, 85, 85, 0.5);
-  border-radius: 7px;
+  text-align: center;
   color: #cacaca;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-color: #090a0f;
 }
-
 .about .about__container .about__skills__showCase .about__design li svg,
 .about .about__container .about__skills__showCase .about__code li svg {
   font-size: 22px;
@@ -158,22 +116,27 @@ li {
 }
 
 @media screen and (min-width: 760px) {
-  .about .about__container .about__skills__showCase .about__design ul,
-  .about .about__container .about__skills__showCase .about__code ul {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+  .about .about__container {
+    width: 85%;
   }
-}
-
-@media screen and (min-width: 1180px) {
   .about .about__container .about__skills__showCase {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1180px) {
+  .about .about__container {
+    width: 75%;
+  }
+  .about .about__container .about__skills__showCase {
+    grid-template-columns: repeat(2, 1fr);
   }
   .about .about__container .about__skills__showCase .about__design ul,
   .about .about__container .about__skills__showCase .about__code ul {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
-/*# sourceMappingURL=about.css.map */
+@media screen and (min-width: 1400px) {
+  .about .about__container {
+    width: 60%;
+  }
+}/*# sourceMappingURL=about.css.map */

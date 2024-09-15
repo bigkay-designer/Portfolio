@@ -1,9 +1,9 @@
-import React, { useState, useRef } from 'react';
+import React, {useState, useRef} from 'react';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import CloseIcon from '@material-ui/icons/Close';
 import CodeIcon from '@material-ui/icons/Code';
-import { Button } from '@material-ui/core';
-import { NavigateNext, NavigateBefore } from '@material-ui/icons';
+import {Button} from '@material-ui/core';
+import {NavigateNext, NavigateBefore} from '@material-ui/icons';
 import modalData from './modalData.json';
 import Modal from './Modal';
 import './css/project.css';
@@ -30,7 +30,7 @@ function Projects() {
     <div className="projects" id="projects">
       <div className="projects__container">
         <div className="project__header">
-          <h1 className="project__title">projects</h1>
+          <h1 className="project__title">Experience</h1>
           <p className="project__subTitle">
             {' '}
             Down below you will find some of my latest projects in which I have
@@ -98,7 +98,7 @@ function Projects() {
                       <button onClick={() => hideModalHandler(data.id)}>
                         <CloseIcon
                           className="popup__close"
-                          style={{ color: 'red' }}
+                          style={{color: 'red'}}
                           fontSize="large"
                         />{' '}
                       </button>

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import React, {useState, useEffect} from 'react';
+import {Link} from 'react-scroll';
 // import {Link} from 'react-router-dom'
-import { Menu, Close, Home, Person, LibraryBooks } from '@material-ui/icons';
+import {Menu, Close, Home, Person, LibraryBooks} from '@material-ui/icons';
 import Showcase from './Showcase';
 import MyTech from './MyTech';
 
@@ -61,9 +61,7 @@ const Nav = () => {
         <div className={`nav__container `}>
           <div className="nav__logo">
             <Link to="subhead" smooth={true} offset={-150} duration={1000}>
-              <h2 className={`${navScroll && 'scroll__color'}`}>
-                Khalid ibrahim
-              </h2>
+              <h2 className={`${navScroll && 'scroll__color'}`}>KI</h2>
             </Link>
           </div>
           <nav className={`nav__links ${openMenu && 'display__nav'} `}>
@@ -113,16 +111,6 @@ const Nav = () => {
               </ul>
             </div>
           </nav>
-        </div>
-      </div>
-      <div className="subhead" id="subhead">
-        <div className="subhead__container">
-          <div className="nav__header__Sec" id="nav">
-            <Showcase />
-          </div>
-          <div className="mytech">
-            <MyTech />
-          </div>
         </div>
       </div>
     </>

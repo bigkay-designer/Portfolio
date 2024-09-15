@@ -1,54 +1,66 @@
-.showCase .showCase__container {
-  padding: 30px 0;
+.showCase {
+  background: radial-gradient(ellipse at bottom, #10172a 0%, #090a0f 100%);
 }
-.showCase .showCase__container p {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-  color: #ccf7e3;
-  line-height: 1.2;
-  font-size: 26px;
-  text-align: center;
+.showCase .showCase__container {
+  padding: 60px 20px;
+}
+.showCase .showCase__container .title {
+  color: #e2e8f0;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.showCase .showCase__container .role {
+  color: #e2e8f0;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 5px 0 0;
+}
+.showCase .showCase__container .intro {
+  max-width: 400px;
+  margin: 10px 0;
+  color: #94a3bb;
+  line-height: 1.3em;
+  font-size: 16px;
 }
 .showCase .showCase__container .btn__div {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .showCase .showCase__container .btn__div a {
   text-decoration: none;
-  color: inheri;
+  color: #000;
 }
 .showCase .showCase__container .btn__div button {
   z-index: 1;
-  margin: 10px;
+  margin: 10px 0;
   font-size: 16px;
-  text-transform: capitalize;
-  padding: 7px 17px;
-  border: none;
-  border-radius: 7px;
-  background-color: rgb(252, 228, 185);
+  background-color: #0078d7;
+  color: #fff;
+  width: 100%;
+  font-weight: 600;
   cursor: pointer;
 }
-.showCase .showCase__container .btn__div button a {
-  text-decoration: none;
-  color: inherit;
-}
 .showCase .showCase__container .btn__div button:hover {
-  background-color: orange;
-}
-.showCase .showCase__container .btn__div .btn__resume {
-  background-color: #27d3a8;
-  font-weight: 800;
-  color: #fff;
-}
-.showCase .showCase__container .btn__div .btn__resume:hover {
   background-color: rgb(29, 103, 128);
 }
 
-@media screen and (min-width: 1160px) {
+@media screen and (min-width: 760px) {
   .showCase .showCase__container {
     width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .showCase .showCase__container {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .showCase .showCase__container {
+    width: 60%;
   }
 }/*# sourceMappingURL=showcase.css.map */

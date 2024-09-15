@@ -1,18 +1,12 @@
 .footer {
-  margin-top: 30px;
   width: 100%;
-  // position: absolute;
-  // bottom: 0;
-  // right: 0;
-  height: 10.5rem;
-  .footer__container {
-    background-color: rgb(3, 39, 56);
-    padding: 30px 0 0;
-  }
+  background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
+  padding: 30px 0 0;
+
   .nav__socials {
     .nav__socials__icons {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
       a {
         text-decoration: none;
@@ -21,6 +15,7 @@
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        padding: 0 20px;
         &:hover {
           .nav__icons__title {
             // display: inline;
@@ -33,7 +28,7 @@
         font-size: 12px;
       }
       .icons {
-        font-size: 30px;
+        font-size: 42px;
         cursor: pointer;
         padding: 7px 8px;
         color: ivory;
@@ -49,7 +44,7 @@
         background-color: #22262a;
       }
       .em {
-        background-color: lightgreen;
+        background-color: #ff512f;
       }
       .desc {
         background-color: #5b6166;
@@ -58,14 +53,15 @@
   }
   .footer__body {
     .footer__body__container {
-      padding: 10px 00px 0;
-      margin-top: 20px;
+      margin-top: 30px;
       h2 {
-        color: rgb(199, 255, 255);
+        padding: 0 10px;
+        color: #e2e8f0;
         font-size: 22px;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
-        margin: 10px;
+        margin: 10px auto;
+        max-width: 400px;
       }
       .contact__info {
         display: flex;
@@ -79,11 +75,11 @@
           align-items: center;
           margin: 5px 0;
           .icons {
-            color: #05e5c8;
+            color: #ff512f;
           }
           p {
             cursor: pointer;
-            color: rgb(235, 235, 235);
+            color: #e2e8f0;
             padding-left: 10px;
           }
           a {
@@ -94,6 +90,7 @@
       }
       .copyright {
         border: 1px solid rgba(83, 83, 83, 0.4);
+        padding: 5px 0;
         p {
           color: #e4e4e4;
           text-align: center;

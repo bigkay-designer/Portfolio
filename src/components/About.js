@@ -1,51 +1,61 @@
 import React from 'react';
-import { Link } from 'react-scroll';
-import { HiTerminal } from 'react-icons/hi';
-import { GoDeviceMobile } from 'react-icons/go';
-import { FaAws, FaDocker } from 'react-icons/fa';
+import {Link} from 'react-scroll';
+import {HiTerminal} from 'react-icons/hi';
+import {GoDeviceMobile} from 'react-icons/go';
+import {FaAws, FaDocker} from 'react-icons/fa';
 import {
   SiJavascript,
   SiHtml5,
   SiReact,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiCss3,
   SiSass,
   SiFirebase,
   SiNginx,
-  SiMaterialUi,
+  SiMui,
   SiLinux,
   SiGithub,
   SiDigitalocean,
-  SiVisualstudio,
+  SiVisualstudiocode,
   SiFigma,
   SiSketch,
   SiAdobexd,
   SiAdobephotoshop,
   SiAffinitydesigner,
-  SiInternetexplorer,
-  SiMaterialdesignicons,
+  SiMicrosoftedge,
+  SiMaterialdesign,
 } from 'react-icons/si';
 import './css/main.css';
 import './css/about.css';
 import './css/MyTech.css';
+
 function About() {
   return (
     <div className="about" id="about">
       <div className="about__container">
         <div className="about__title">
-          <h3>About me</h3>
-          <h1>WHO AM I? </h1>
+          <h1>About me</h1>
         </div>
         <div className="about__content">
+          <Link to="projects" smooth={true} duration={1000} offset={-120}>
+            projects
+          </Link>
           <p>
-            I am full stack developer who designs, builds and customize
-            high-performing web applications. I have a passion for building
-            responsive and engaging websites that focus on user experience, feel
-            free to have a look at some of my{' '}
-            <Link to="projects" smooth={true} duration={1000} offset={-120}>
-              projects
-            </Link>
-            .
+            As a Full Stack Software Engineer with extensive experience across
+            both startups and large enterprises, I specialise in turning complex
+            business challenges into efficient, scalable technology solutions.
+            From custom software development to API integration and process
+            automation (RPA), I design systems that transform digital landscapes
+            and drive measurable business growth.
+          </p>
+          <p>
+            Proficient in React, Node.js, JavaScript, and Python, I bring a
+            versatile skill set that spans both front-end and back-end
+            development. My experience in agile environments allows me to
+            deliver high-impact solutions that are tailored to each client's
+            unique needs. Whether you're optimising workflows or building
+            bespoke software from scratch, my focus is always on delivering
+            value, efficiency, and long-term success through technology.
           </p>
         </div>
 
@@ -67,13 +77,13 @@ function About() {
                   <span>UX, UI</span>
                 </li>
                 <li>
-                  <SiInternetexplorer className="internet" /> <span>WEB</span>
+                  <SiMicrosoftedge className="internet" /> <span>WEB</span>
                 </li>
                 <li>
                   <GoDeviceMobile className="mobile" /> <span>MOBILE</span>
                 </li>
                 <li>
-                  <SiMaterialdesignicons className="logo" /> <span>LOGOS</span>
+                  <SiMaterialdesign className="logo" /> <span>LOGOS</span>
                 </li>
               </ul>
             </div>
@@ -106,6 +116,7 @@ function About() {
               </p>
             </div>
             <div className="about__design__content">
+              <h1>dev tools</h1>
               <ul>
                 <li>
                   <SiHtml5 className="html" />
@@ -120,7 +131,7 @@ function About() {
                   <span>sass</span>
                 </li>
                 <li>
-                  <SiMaterialUi className="material" />
+                  <SiMui className="material" />
                   <span>material-ui</span>
                 </li>
                 <li>
@@ -132,7 +143,7 @@ function About() {
                   <span>react</span>
                 </li>
                 <li>
-                  <SiNodeDotJs className="nodejs" />
+                  <SiNodedotjs className="nodejs" />
                   <span>nodeJs</span>
                 </li>
                 <li>
@@ -142,11 +153,10 @@ function About() {
               </ul>
             </div>
             <div className="about__design__tools">
-              <h1>dev tools</h1>
               <ul>
                 <li>
-                  <SiVisualstudio className="vs" />
-                  <span>Visual studio</span>
+                  <SiVisualstudiocode className="vs" />
+                  <span>Visual Studio Code</span>
                 </li>
                 <li>
                   <FaAws className="aws" />
