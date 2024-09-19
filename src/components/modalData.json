@@ -1,5 +1,96 @@
 [
   {
+    "id": "Unity Horizons",
+    "title": "Unity Horizons",
+    "img": "https://res.cloudinary.com/dedgyat3p/image/upload/v1726733910/Screenshot_2024-09-19_at_09.17.45_nsf8zm.png",
+    "usedTech": [
+      "react",
+      "SCSS",
+      "material-ui",
+      "Javascript",
+      "Framer Motion",
+      "firebase",
+      "NodeJs",
+      "UX/UI",
+      "responsive",
+      "REST API",
+      "Axios",
+      "ContentFul"
+    ],
+    "content": [
+      "Utilizes Twitter API to retrieve and display tweets.",
+      "Created an internal API to communicate and grab data from the database.",
+      "It has full user authentication using JSON Web Tokens.",
+      "Responsive, user-friendly and used various technologies, including the MERN stack.",
+      "Tested website and performed troubleshooting before live deployment."
+    ],
+    "live": "https://unityhorizons.com",
+    "github": "https://github.com/bigkay-designer/",
+    "projectIntro": "Unity Horizons is a dynamic website designed for a Community Interest Company (CIC) dedicated to supporting and uplifting the community. Built using modern web technologies like React, Firebase, and Material-UI, the platform offers a seamless user experience with engaging animations and a responsive design. "
+  },
+  {
+    "id": "E-Commerce",
+    "title": "Clothing Shop",
+    "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1629910751/portfolio%20images/Screenshot_2021-08-25_at_12.55.45_d1umug.png",
+    "usedTech": [
+      "JSX & CSS",
+      "Sass",
+      "Javascript",
+      "react",
+      "react router",
+      "nodeJS",
+      "Stripe",
+      "checkout",
+      "REST API",
+      "MonogoDB",
+      "firebase",
+      "nginx server",
+      "Authentication",
+      "digitalOcean",
+      "ux/ui",
+      "responsive"
+    ],
+    "content": [
+      "Designed and developed the entire application.",
+      "Used Stripe for credit card payment gateways.",
+      "Created an internal API to communicate and grab data from the database.",
+      "Full user authentication and authorization using JSON Web Tokens.",
+      "Tested website for cross-browser compatibility."
+    ],
+    "live": "https://bkclothing-a57f8.web.app/",
+    "github": "https://github.com/bigkay-designer/bkclothing",
+    "projectIntro": "BK Clothing is a fully functional e-commerce platform with a sleek, modern UX/UI, offering a smooth shopping experience. Built with React and Node.js, it ensures responsiveness and efficiently handles all aspects of an online store, from payment processing to user management."
+  },
+  {
+    "id": "Web design agency",
+    "title": "Web Design Agency",
+    "img": "https://res.cloudinary.com/dedgyat3p/image/upload/v1726733784/Screenshot_2024-09-19_at_09.15.57_d3il4a.png",
+    "usedTech": [
+      "JSX & CSS",
+      "Scss",
+      "material-ui",
+      "Framer Motion",
+      "Javascript",
+      "react",
+      "firebase",
+      "ux/ui",
+      "responsive",
+      "REST API",
+      "Nodejs",
+      "Axios",
+      "Form Submission"
+    ],
+    "content": [
+      "For this project, I made a single page application using reactJs and sass.",
+      "The Application is mobile-friendly and responsive.",
+      "Used react-router and react-scroll to navigate through different pages.",
+      "Implemented form submission and good UX experience."
+    ],
+    "live": "https://technoefx.com",
+    "github": "https://github.com/bigkay-designer/services",
+    "projectIntro": "Techno EFX is a visually engaging, responsive website for a modern web design agency. Built with React, Sass, and Material-UI, it features smooth animations and seamless navigation. This single-page application is mobile-friendly, with a clean UX, interactive forms, and fluid transitions for an enhanced user experience."
+  },
+  {
     "id": "Twitter",
     "title": "Twitter clone",
     "img": "https://res.cloudinary.com/diqgjrpua/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1606798922/portfolio%20images/screenshot-twitter-clone-5d8fe-web-app-1606798564397_lrfrpq.png",
@@ -29,95 +120,6 @@
     "live": "https://twitter-clone-5d8fe.web.app/",
     "github": "https://github.com/bigkay-designer/twitter-deployment",
     "projectIntro": "Elegant look and well-structured code. The idea behind this project was to create a twitter-clone. It's a single-page application that was built with reactJs as the front-end and node for the back-end."
-  },
-  {
-    "id": "E-Commerce",
-    "title": "Clothing Shop",
-    "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1629910751/portfolio%20images/Screenshot_2021-08-25_at_12.55.45_d1umug.png",
-    "usedTech": [
-      "JSX & CSS",
-      "Sass",
-      "Javascript",
-      "react",
-      "react router",
-      "node",
-      "Stripe",
-      "checkout",
-      "REST API",
-      "MonogoDB",
-      "firebase",
-      "nginx server",
-      "Authentication",
-      "digitalOcean",
-      "ux/ui",
-      "responsive"
-    ],
-    "content": [
-      "Designed and developed the entire application.",
-      "Used Stripe for credit card payment gateways.",
-      "Created an internal API to communicate and grab data from the database.",
-      "Full user authentication and authorization using JSON Web Tokens.",
-      "Tested website for cross-browser compatibility."
-    ],
-    "live": "https://bkclothing-a57f8.web.app/",
-    "github": "https://github.com/bigkay-designer/bkclothing",
-    "projectIntro": "Fully functional e-commerce website with beautiful and clean UX design. This project is built using React for the frontend and NodeJs in the backend. It has a checkout page and uses Stripe for payment gateways."
-  },
-  {
-    "id": "Web design agency",
-    "title": "Web Design Agency",
-    "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1615187350/Screenshot_2021-03-08_at_07.08.19_lraofb.png",
-    "usedTech": [
-      "JSX & CSS",
-      "Sass",
-      "material-ui",
-      "Javascript",
-      "react",
-      "firebase",
-      "ux/ui",
-      "responsive",
-      "REST API",
-      "Axios",
-      "Form Submission"
-    ],
-    "content": [
-      "For this project, I made a single page application using reactJs and sass.",
-      "The Application is mobile-friendly and responsive.",
-      "Used react-router and react-scroll to navigate through different pages.",
-      "Implemented form submission and good UX experience."
-    ],
-    "live": "https://services-fb54d.web.app/",
-    "github": "https://github.com/bigkay-designer/services",
-    "projectIntro": "With appealing colors and a clean UX design, this project layout is truly inspiring. This Application is mobile-friendly and fully responsive."
-  },
-  {
-    "id": "Callmyneighbour",
-    "title": "Community App",
-    "img": "https://res.cloudinary.com/diqgjrpua/image/upload/v1606800223/portfolio%20images/screenshot-callmyneighbour-site-1606798735667_pqpidb.png",
-    "usedTech": [
-      "html & CSS",
-      "Sass",
-      "Javascript",
-      "node",
-      "express",
-      "Database",
-      "nginx server",
-      "Authentication",
-      "CRUD",
-      "digitalOcean",
-      "ux/ui",
-      "responsive"
-    ],
-    "content": [
-      "This application has search functionality if you're looking for a specific user or area.",
-      "It has full user authentication and authorization using passport.js.",
-      "Used google maps api to display users in your residential area.",
-      "Worked with mongoDB database to collect user data.",
-      "CRUD with nodejs and express, SASS, javaScript and more."
-    ],
-    "live": "http://cmn.services/",
-    "github": "https://github.com/bigkay-designer/call-my-neighbour",
-    "projectIntro": "Amazing design and a bright idea, this project aimed to create a platform that brings the community together. You sign up to the website and instantly see the other users in your area."
   },
   {
     "id": "Covid",

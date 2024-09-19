@@ -11,11 +11,11 @@ function Showcase() {
       <div className="showcase__overlay"></div>
       <div className="showCase__container">
         <h2 className="title">Khalid Ibrahim</h2>
-        <h4 className="role">Full Stack Software Engineer</h4>
+        <h4 className="role">Full Stack Software Engineer & Mentor</h4>
         <p className="intro">
-          I build cutting-edge software solutions that drive business success
-          and innovation. With a passion for solving challenges, I turn complex
-          ideas into reality. Let’s collaborate to create something exceptional.
+          Building innovative software that turns complex challenges into
+          seamless, scalable solutions. I transform ideas into digital
+          experiences that drive business growth and inspire innovation.
         </p>
         <div className="btn__div">
           {/* <Link  to="projects" smooth={true} duration={1000} offset={-120}> <button>view projects</button> </Link> */}

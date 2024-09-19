@@ -2,7 +2,7 @@ li {
   list-style: none !important;
 }
 .about {
-  background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
+  // background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
   padding: 60px 20px;
   .about__container {
     width: 100%;
@@ -17,9 +17,7 @@ li {
     }
     .about__content {
       margin-top: 10px;
-      max-width: 700px;
       p {
-        max-width: 400px;
         margin: 10px 0;
         color: #94a3bb;
         line-height: 1.3em;
@@ -120,6 +118,13 @@ li {
   .about {
     .about__container {
       width: 85%;
+      .about__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+      }
       .about__skills__showCase {
         grid-template-columns: repeat(2, 1fr);
       }

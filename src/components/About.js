@@ -37,25 +37,28 @@ function About() {
           <h1>About me</h1>
         </div>
         <div className="about__content">
-          <Link to="projects" smooth={true} duration={1000} offset={-120}>
+          {/* <Link to="projects" smooth={true} duration={1000} offset={-120}>
             projects
-          </Link>
+          </Link> */}
           <p>
-            As a Full Stack Software Engineer with extensive experience across
-            both startups and large enterprises, I specialise in turning complex
-            business challenges into efficient, scalable technology solutions.
-            From custom software development to API integration and process
-            automation (RPA), I design systems that transform digital landscapes
-            and drive measurable business growth.
+            As a versatile Full Stack Software Engineer, I have a passion for
+            transforming complex challenges into streamlined, scalable
+            solutions. With experience in both startups and large enterprises, I
+            bring a unique ability to design and implement innovative technology
+            that drives measurable growth. My expertise ranges from custom
+            software development to API integrations and process automation
+            (RPA), ensuring that every project I tackle enhances business
+            performance and operational efficiency.
           </p>
           <p>
-            Proficient in React, Node.js, JavaScript, and Python, I bring a
-            versatile skill set that spans both front-end and back-end
-            development. My experience in agile environments allows me to
-            deliver high-impact solutions that are tailored to each client's
-            unique needs. Whether you're optimising workflows or building
-            bespoke software from scratch, my focus is always on delivering
-            value, efficiency, and long-term success through technology.
+            I am proficient in technologies such as React, Node.js, JavaScript,
+            and Go, and offer deep experience in both front-end and back-end
+            development. By adopting an agile, client-focused approach, I ensure
+            that each solution is tailored to meet specific business needs,
+            delivering value through optimised workflows and high-impact
+            results. Whether you’re seeking to enhance your digital landscape or
+            build bespoke systems from scratch, my commitment is to deliver
+            cutting-edge solutions that empower long-term success.
           </p>
         </div>
 

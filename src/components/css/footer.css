@@ -1,6 +1,5 @@
 .footer {
   width: 100%;
-  background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
   padding: 30px 0 0;
 }
 .footer .nav__socials .nav__socials__icons {
@@ -82,8 +81,7 @@
   color: inherit;
 }
 .footer .footer__body .footer__body__container .copyright {
-  border: 1px solid rgba(83, 83, 83, 0.4);
-  padding: 5px 0;
+  padding: 10px 0;
 }
 .footer .footer__body .footer__body__container .copyright p {
   color: #e4e4e4;

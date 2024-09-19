@@ -10,6 +10,8 @@
 .App {
   background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
   max-width: 100%;
+  background-color: transparent;
+  background-size: 5px 5px;
 }
 
 a {

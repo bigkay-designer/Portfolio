@@ -3,7 +3,6 @@ li {
 }
 
 .about {
-  background: radial-gradient(ellipse at top, #10172a 0%, #090a0f 100%);
   padding: 60px 20px;
 }
 .about .about__container {
@@ -18,10 +17,8 @@ li {
 }
 .about .about__container .about__content {
   margin-top: 10px;
-  max-width: 700px;
 }
 .about .about__container .about__content p {
-  max-width: 400px;
   margin: 10px 0;
   color: #94a3bb;
   line-height: 1.3em;
@@ -118,6 +115,13 @@ li {
 @media screen and (min-width: 760px) {
   .about .about__container {
     width: 85%;
+  }
+  .about .about__container .about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
   }
   .about .about__container .about__skills__showCase {
     grid-template-columns: repeat(2, 1fr);

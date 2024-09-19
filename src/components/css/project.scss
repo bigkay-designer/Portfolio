@@ -1,5 +1,5 @@
 .projects {
-  background: radial-gradient(ellipse at bottom, #10172a 0%, #090a0f 100%);
+  // background: radial-gradient(ellipse at bottom, #10172a 0%, #090a0f 100%);
   padding: 20px 20px;
 
   .projects__container {
@@ -25,7 +25,7 @@
       margin: 20px auto 0;
       overflow-x: scroll;
       scroll-behavior: smooth;
-      height: 520px;
+      height: 580px;
       padding: 10px 0;
       border-radius: 12px;
       &::-webkit-scrollbar {
@@ -147,11 +147,11 @@
       // display: none;
     }
     .main__modal {
-      background-color: #fff;
+      background-color: #1b2735;
       position: fixed;
       top: 0;
       left: 0;
-      width: 85%;
+      max-width: 85%;
       margin: 0 auto;
       z-index: 300 !important;
       transform: translate(-20%, -20%);
@@ -182,17 +182,15 @@
         width: 100%;
         .projects__img {
           width: 100%;
-          height: 160px;
+          height: 100%;
           object-fit: cover;
-          background-color: #343a41;
         }
         .projects__cards--popup {
-          padding: 10px;
-          background-color: #343a41;
+          padding: 20px 10px;
           .project__body {
             overflow-y: scroll;
             scroll-behavior: smooth;
-            height: 350px;
+            height: 460px;
             padding-bottom: 20px;
             margin: 10px 0 20px;
             @media screen and (max-width: 360px) {
@@ -202,16 +200,16 @@
               height: 100%;
             }
             &::-webkit-scrollbar {
-              width: 10px;
-              box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+              width: 3px;
+              box-shadow: inset 0 0 3px #1b2735;
               border-radius: 12px;
             }
             &::-webkit-scrollbar-track {
-              box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+              box-shadow: inset 0 0 6px #1b2735;
             }
             &::-webkit-scrollbar-thumb {
               border-radius: 7px;
-              background-color: rgb(123, 154, 179);
+              background-color: #1b2735;
             }
           }
           .popup-title {
@@ -220,6 +218,7 @@
             align-items: center;
             svg {
               font-size: 22px;
+              color: #000;
             }
             button {
               cursor: pointer;
@@ -244,20 +243,19 @@
             ul {
               display: flex;
               flex-wrap: wrap;
+              gap: 15px;
               align-items: center;
               padding: 0;
               margin: 0 0 20px;
 
               li {
-                flex: 30%;
-                margin: 10px 10px 10px 0;
-                list-style: none;
-                border: 1px solid #000;
-                padding: 3px 5px;
+                flex: 33.3%;
+                text-transform: uppercase;
+                padding: 10px;
+                margin: 10px 0px 0;
                 text-align: center;
-                color: #bac8d6;
-                text-shadow: 0px 0px 0.5px #fff;
-                text-transform: capitalize;
+                color: #cacaca;
+                background-color: #090a0f;
               }
             }
           }
@@ -294,46 +292,29 @@
               font-size: 22px;
               border: none;
               border-radius: 7px;
-              color: ivory;
               cursor: pointer;
               transform: scale(0.9);
 
               a {
                 display: flex;
                 justify-content: center;
-                // align-items: center;
+                align-items: center;
                 font-size: 22px;
                 border: none;
                 border-radius: 7px;
-                color: ivory;
+                color: #fff;
                 text-decoration: none;
                 text-transform: capitalize;
-              }
-              .dark {
-                color: #000;
-                &:hover {
-                  color: #fff;
-                }
               }
               span {
                 padding-right: 3px;
               }
             }
             .demo {
-              background-color: #27d3a8;
-              &:hover {
-                background-color: rgba(126, 117, 117, 0.6);
-              }
+              background-color: #0078d7;
             }
             .code {
-              background-color: #fce4b9;
-              color: #000;
-              &:hover {
-                background-color: rgba(148, 142, 132, 0.6);
-                .dark {
-                  color: #fff;
-                }
-              }
+              background-color: #ff512f;
             }
           }
         }
@@ -343,11 +324,25 @@
 }
 
 /// media Queries
+
+@media screen and (max-width: 375px) {
+  .projects {
+    .projects__container {
+      .projects__cards_container {
+        height: 600px;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 760px) {
   .projects {
     .projects__container {
       width: 85%;
       margin: 0 auto;
+      .main__modal {
+        max-width: 60%;
+      }
     }
   }
 }
@@ -364,19 +359,9 @@
 
 /// modal
 
-@media screen and (min-width: 760px) {
-  .modal {
-    max-width: 75%;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .projects {
     .projects__container {
-      .main__modal {
-        width: 70%;
-        max-width: 70%;
-      }
       .modal {
         .modal__container {
           .projects__cards--popup {
@@ -406,11 +391,19 @@
           padding-bottom: 60px;
         }
       }
+      .main__modal {
+        max-width: 40%;
+      }
     }
   }
-  .main__modal {
-    top: 0px !important;
-    left: 0 !important;
-    max-width: 50% !important;
+}
+
+@media screen and (min-width: 1400px) {
+  .projects {
+    .projects__container {
+      .main__modal {
+        max-width: 35%;
+      }
+    }
   }
 }

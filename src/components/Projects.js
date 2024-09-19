@@ -94,13 +94,9 @@ function Projects() {
                   />
                   <div className="projects__cards--popup">
                     <div className="popup-title">
-                      <span>project</span>
+                      <span>{data.title}</span>
                       <button onClick={() => hideModalHandler(data.id)}>
-                        <CloseIcon
-                          className="popup__close"
-                          style={{color: 'red'}}
-                          fontSize="large"
-                        />{' '}
+                        <CloseIcon className="popup__close" />{' '}
                       </button>
                     </div>
                     <div className="popup__btn">
@@ -127,7 +123,7 @@ function Projects() {
                       </button>
                     </div>
                     <div className="project__body">
-                      <h2> {data.title} </h2>
+                      <h2> Built with </h2>
                       <div className="projects__cards--popup__tech">
                         <ul>
                           {data.usedTech.map((data) => (
@@ -135,14 +131,14 @@ function Projects() {
                           ))}
                         </ul>
                       </div>
-                      <span>about</span>
-                      <div className="project__para">
+                      {/* <span>about</span> */}
+                      {/* <div className="project__para">
                         <ul>
                           {data.content.map((content) => (
                             <li> {content} </li>
                           ))}
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </>
