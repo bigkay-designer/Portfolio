@@ -1,0 +1,50 @@
+@media screen and (min-width: 984px) {
+  .large-screen-menu {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+  .large-screen-menu .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #1e293b;
+    opacity: 0.1;
+  }
+  .large-screen-menu .menu-container {
+    padding-right: 30px;
+  }
+  .large-screen-menu .menu-container .modal-logo {
+    display: none;
+  }
+  .large-screen-menu .menu-container .main-menu-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  .large-screen-menu .menu-container .main-menu-list li {
+    position: relative;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 0px 15px;
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  .large-screen-menu .menu-container .main-menu-list li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .large-screen-menu .menu-container .main-menu-list li p:hover {
+    border-bottom: 1px solid #c4c4c4;
+  }
+  .large-screen-menu .menu-container .main-menu-list li svg {
+    color: #22d3ee;
+  }
+}/*# sourceMappingURL=LargeScreenNav.css.map */

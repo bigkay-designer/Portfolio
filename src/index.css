@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Import Tailwind's base, and utilities */
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #22d3ee;
+  --color-primary: #1e293b;
+  --color-secondary: #f1f5f9;
+  --color-neutral1: #334155;
+  --color-neutral2: #64748b;
+  --color-success: #10b981;
+}
+/* global fonts */
+html {
+  font-family: 'Open Sans', sans-serif; /* Default font for body text */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif; /* For headings */
+}
+
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif; /* For subheadings */
+}
+
+blockquote {
+  font-family: 'Lato', sans-serif; /* For quotes */
+}
+
+.caption {
+  font-family: 'Open Sans', sans-serif; /* For captions */
 }
