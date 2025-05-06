@@ -15,10 +15,12 @@ import About from '../pages/About.jsx';
 import Contact from '../pages/Contact.jsx';
 import Experience from '../pages/Experience.jsx';
 import Projects from '../pages/Projects.jsx';
+import ScrollToTop from '../components/common/ScrollToTop.jsx';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Nav />
         <Routes>

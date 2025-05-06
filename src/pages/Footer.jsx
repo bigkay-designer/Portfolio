@@ -103,7 +103,15 @@ const Footer = () => {
               Quick Links
             </h4>
             <ul className="space-y-2">
-              {['Home', 'About', 'Projects', 'Blog', 'Contact'].map(
+              <li>
+                <Link
+                  to="/"
+                  className="text-slate-400 hover:text-cyan-400 transition-colors duration-200"
+                >
+                  Home
+                </Link>
+              </li>
+              {['About', 'Experience', 'Projects', 'Contact'].map(
                 (item, index) => (
                   <li key={index}>
                     <Link

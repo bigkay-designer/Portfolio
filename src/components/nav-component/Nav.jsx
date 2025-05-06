@@ -179,12 +179,12 @@ const Nav = () => {
                   <SettingsApplications className="ul__icon" /> <p>Projects</p>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link onClick={() => SetOpenMenu(false)} to="/blog">
                   <LibraryBooks className="ul__icon" />
                   <p>Blog</p>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link onClick={() => SetOpenMenu(false)} to="/contact">
                   <ContactPhone className="ul__icon" />

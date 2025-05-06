@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import heroImage from '../../assets/images/Subject.png';
+// import heroImage from '../../assets/images/Subject.png';
 import {Link} from 'react-router-dom';
 
 const HeroSection = () => {
@@ -21,12 +21,14 @@ const HeroSection = () => {
           >
             <div className="mb-6">
               <motion.span
-                className="inline-block px-3 py-1 text-sm font-medium bg-cyan-100 dark:bg-cyan-900/50 text-cyan-600 dark:text-cyan-400 rounded-full mb-4"
+                className="inline-block px-4 py-4 text-sm font-medium bg-cyan-100 dark:bg-cyan-900/50 text-cyan-600 dark:text-cyan-400 rounded-2xl mb-4"
                 initial={{opacity: 0, y: 10}}
                 animate={{opacity: 1, y: 0}}
                 transition={{delay: 0.2}}
               >
-                Technology Consultant & Community Leader
+                Technology Consultant <span className="text-white">|</span>{' '}
+                Community Advocate <span className="text-white">|</span> Mentor
+                & Educator
               </motion.span>
 
               <motion.h1
@@ -35,10 +37,17 @@ const HeroSection = () => {
                 animate={{opacity: 1, y: 0}}
                 transition={{delay: 0.3}}
               >
-                Hi, I'm{' '}
+                Hi, I’m{' '}
                 <span className="text-cyan-500">
-                  Khalid <span className="text-white"> Ibrahim</span>
+                  Khalid <span className="text-white">Ibrahim</span>
                 </span>
+                <p className="font-medium text-slate-700 dark:text-slate-200">
+                  I build bridges between technology
+                </p>{' '}
+                and{' '}
+                <span className="font-medium text-slate-700 dark:text-slate-200">
+                  community impact
+                </span>{' '}
               </motion.h1>
 
               <motion.p
@@ -47,17 +56,10 @@ const HeroSection = () => {
                 animate={{opacity: 1, y: 0}}
                 transition={{delay: 0.4}}
               >
-                I build bridges between{' '}
-                <span className="font-medium text-slate-700 dark:text-slate-200">
-                  technology
-                </span>{' '}
-                and{' '}
-                <span className="font-medium text-slate-700 dark:text-slate-200">
-                  community impact
-                </span>
-                . Through strategic consulting and innovative digital solutions,
-                I help organizations and individuals turn their vision into
-                reality.
+                I partner with mission-driven teams to design and deliver
+                scalable software platforms and automation solutions, empowering
+                organisations to streamline workflows, elevate engagement, and
+                drive measurable social impact.
               </motion.p>
             </div>
 
@@ -89,9 +91,9 @@ const HeroSection = () => {
               transition={{delay: 0.6}}
             >
               {[
-                {value: '5+', label: 'Years Experience'},
-                {value: '30%', label: 'Efficiency Gains'},
-                {value: '40%', label: 'Community Growth'},
+                {value: '50+', label: 'Projects Delivered'},
+                {value: '£30k+', label: 'Funding Secured'},
+                {value: '500+', label: 'Youth Impacted'},
               ].map((stat, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="text-3xl font-bold text-cyan-500">
@@ -120,13 +122,13 @@ const HeroSection = () => {
               {/* <div className="relative rounded-2xl overflow-hidden border-4 border-white dark:border-slate-800 shadow-xl"> */}
 
               <div className="relative rounded-2xl overflow-hidden  border-white  shadow-xl">
-                <img
+                {/* <img
                   src={heroImage}
                   alt="Khalid Ibrahim"
                   width={500}
                   height={500}
                   className="w-full h-full object-cover"
-                />
+                /> */}
               </div>
 
               {/* Floating badge */}
